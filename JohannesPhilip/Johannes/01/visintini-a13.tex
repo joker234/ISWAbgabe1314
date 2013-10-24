@@ -1,0 +1,45 @@
+\documentclass{scrartcl}
+
+\usepackage[ngerman]{babel}
+\usepackage{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage{a4wide}
+\usepackage[top=2cm, bottom=2cm, left=1cm, right=1cm]{geometry}
+
+
+\begin{document}
+\title{ISW - Aufgabe 1.3}
+\author{Johannes Visintini}
+\maketitle
+
+\section*{Aufgabe 1.3}
+\begin{tabular}{|p{3cm}|p{7cm}|p{7cm}|}\hline
+	\textbf{Softwarefehler}
+		& \textbf{Erklärung}
+		& \textbf{Statisch/Dynamisch + Begründung}\\\hline
+	Null-Pointer-Derefernzierung
+		& Wenn ein Pointer auf keinen gültigen Speicherbereich zeigt und auf
+			diesen Zugegriffen wird, wird eine “Null Exception” zurückgegeben.
+		& Dynamisch — Wenn ein Pointer „Deklariert“ aber \textbf{nicht}
+			„Initialisiert“ wird, ist ihm kein gültiger Speicherbereich
+			zugewiesen. So kann es zu einer “Null Exception” kommen.\\\hline
+	Vergleich oder Zuweisung
+		& Wenn eigentlich etwas Zugewiesen werden sollte, dann aber ein
+			Vergleich verwendet wurde („==“ statt „=“)
+		& Statisch — Der Compiler kann diesen Fehler erkennen, da er aber nicht
+			immer ein Fehler ist (sondern auch gewollt sein kann) gibt der
+			Compiler eine Warnung aus.\\\hline
+	fehlerhafter Arrayzugriff
+		& Wenn auf das Array außerhalb des Arraybereichs zugegriffen werden
+			soll. (z.B. auf „foo[12]“, wenn foo vorher als „int[10] foo“
+			definiert wurde)
+		& Dynamisch — weil der Arrayzugriffspunkt von Benutzereingaben abhängen
+			kann\\\hline
+	fehlendes volatil
+		& Wenn ein Wert jedes Mal aus der Quelle gelesen werden muss (weil
+			diese Quelle z.B. Live-Werte liefert, aus Sensoren o.ä.) und diese
+			nicht gecached werden dürfen, muss ein volatil gesetzt sein
+		& Statisch — Könnte ein Compiler erkennen. Dies tun aber nicht alle
+			gängigen Compiler\\\hline
+\end{tabular}
+\end{document}

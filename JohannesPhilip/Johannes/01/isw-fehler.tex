@@ -1,0 +1,93 @@
+%{{{ Heading Stuff
+\documentclass[ngerman]{scrartcl}
+\usepackage[ngerman]{babel}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{fontspec}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%\pagestyle{myheadings}
+
+\lhead{\bfseries Section \thesection}
+%%\chead{\textcolor{red}{PRELIMINARY VERSION}}
+\rhead{\bfseries \today}
+\lfoot{\bfseries M. Nöltner}
+\cfoot{Final Report of the Beginners Practical Course}
+\rfoot{\bfseries \thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+%\textheight = 592pt
+\textheight = 650pt
+
+
+
+
+
+
+
+\usepackage{minted}
+\definecolor{bg}{rgb}{0.95,0.95,0.95}
+\newminted[C++]{cpp}{numbersep=5pt, bgcolor=bg, gobble=0, linenos, tabsize=4}
+\newminted[Java]{java}{numbersep=5pt, bgcolor=bg, gobble=0, linenos, tabsize=4}
+%}}}
+
+
+%{{{
+\begin{document}
+
+\author{Moritz Nöltner}
+\title{Einführung in Software Engineering}
+\subtitle{WS 13/14, Aufgabe 1.3}
+
+\maketitle
+\begin{figure}[H] %% There is no sense in having this image appear somewhere else
+	\centering
+%%	\includegraphics[width=\linewidth]{scriptor_cimg1}
+	%%\includegraphics[width=\linewidth]{preliminary_warning}
+	%\caption{Tuchulcha with a (very) simple workflow, picture taken from \cite{tuchulcha-website}}
+\end{figure}
+
+\section{Dynamisch entdeckbare Softwarefehler}
+\subsection{Out of bounds Zugriff}
+Greift man auf ein Array zu, und überprüft dabei nicht, ob der Index innerhalb der Arraygrenzen liegt, so kann es sein, dass dieser es nicht ist. In diesm Fall kann je nach Architektur entweder ein Segmentierungsfehler ausgelöst werden, der umliegende Speicher korrumpiert werden, oder wie bei Java eine Out-Out-Bounds-Exception ausgelöst werden.
+\begin{Java}
+package tests;
+import java.util.Scanner;
+
+public class Main {
+	public int[] foo;
+	public Main(){
+		this.foo=new int[10];
+	}
+
+	public static void main(String[] args) {
+		Main bar=new Main();
+		System.out.println("Bitte geben sie an, welcher Eintrag auf 10 gesetzt werden soll:");
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		bar.foo[num]=10;	// Fehler, falls num > 9
+		for(int i=0; i<10; i++)
+		{
+			System.out.println(bar.foo[i]);
+		}
+	}
+}
+\end{Java}
+
+
+\subsection{Zweites}
+
+\section{Statisch entdeckbare Softwarefehler}
+\subsection{Erstes}
+\subsection{Zweites}
+
+
+\end{document}
+%}}}
+
+
+
+
+
+
+
