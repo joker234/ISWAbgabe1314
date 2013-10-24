@@ -1,0 +1,73 @@
+%{{{ Heading Stuff
+\documentclass[ngerman, landscape]{scrartcl}
+\usepackage[landscape, left=0cm, right=0cm, top=1cm, bottom=1cm]{geometry}
+\usepackage[ngerman]{babel}
+\usepackage{fontspec}
+
+
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{pdfpages}
+
+%%\documentclass[ngerman]{scrartcl}
+%%\usepackage[ngerman]{babel}
+%%\usepackage{fontspec}
+
+\usepackage{minted}
+\definecolor{bg}{rgb}{0.95,0.95,0.95}
+\newminted[C++]{cpp}{numbersep=5pt, bgcolor=bg, gobble=0, linenos, tabsize=4}
+\newminted[Java]{java}{numbersep=5pt, bgcolor=bg, gobble=0, linenos, tabsize=4}
+%}}}
+
+
+%{{{
+\begin{document}
+
+\author{Moritz Nöltner}
+\title{Einführung in Software Engineering}
+\subtitle{WS 13/14, Aufgabe 2.1}
+\maketitle
+
+
+\textheight = 650pt
+\begin{longtable}{|p{8cm}|p{8cm}|p{8cm}|}
+%%\begin{tabular}{|p{3cm}|p{5cm}|p{6cm}|}
+	\hline
+	\textbf{Bezeichnung} & \textbf{Funktion in Anwendung} & \textbf{Beschreibung} \\
+	\hline
+	\hline
+	Neues Projekt anlegen & In der Navigatoransicht das Kontextmenu öffnen, dann die Option Other >>  New Project wählen. & Als Gliederungselement zur Organisation von Filmdaten können in der Navigatoransicht neue Projekte angelegt werden \\
+	\hline
+	Neues Objekt Movie anlegen & In der Navigatoransicht das Kontextmenu öffnen, die Option New Model Element wählen \& auf Movie doppelklicken. & Als Gliederungselement zur Organisation von Filmdaten könnenn in der Navigatoransicht neue Filme angelegt werden \\
+	\hline
+	Neues Objekt MovieCollection anlegen & In der Navigatoransicht das Kontextmenu öffnen, die Option New Model Element wählen \& auf MovieCollection doppelklicken. & Als Gliederungselement zur Organisation von Filmdaten könnenn in der Navigatoransicht neue Filme angelegt werden \\
+	\hline
+	Neues Objekt Performer anlegen & In der Navigatoransicht das Kontextmenu öffnen, die Option New Model Element wählen \& auf Performer doppelklicken. & Als Gliederungselement zur Organisation von Filmdaten könnenn in der Navigatoransicht neue Filme angelegt werden \\
+	\hline
+	Movie bewerten & In der Detailansicht eines Movies auf auf dem Drop-Down-Menue "Rating" die gewünschte Bewertung anklicken & Jedem Film  kann eine Bewertung zugeordnet werden. \\
+	\hline
+	Performer zu Movie zufügen & In der Detailansicht eines Movies unter Performer auf das Icon mit einem Menchenkopf und dem Kettensymbol klicken, dann in dem sich öffnenden Fenster den entsprechenden Performer auswählen. & So kann man angeben, welche Performer in einem Movie mitgespielt haben \\
+	\hline
+	Collection zu Movie zufügen & In der Detailansicht eines Movies unter Collection auf das Icon mit einer Kiste und dem Kettensymbol klicken, dann in dem sich öffnenden Fenster die entsprechende Collection auswählen. & So kann man angeben, in welchen Collections ein Movie enthalten ist \\
+	\hline
+	Online Similar zu Movie zufügen & In der Detailansicht eines Movies unter Online Similar auf das Icon mit einem Filmstreifen und dem Kettensymbol klicken, dann in dem sich öffnenden Fenster das entsprechende Movie auswählen. & So kann man angeben, in welchen Online Similar es zu einem Movie gibt \\
+	\hline
+	Performer von Movie entfernen & In der Detailansicht eines Movies unter Performer auf das rote Kreutz neben dem Performer klicken, den man entfernen möchte & So kann man einen Performer wieder entfernen \\
+	\hline
+	Collection von Movie entfernen & In der Detailansicht eines Movies unter Collection auf das rote Kreutz neben der Collection klicken, die man entfernen möchte. & So kann man eine Collections wieder entfernen \\
+	\hline
+	Online Similar von Movie entfernen & In der Detailansicht eines Movies unter Online Similar auf das rote Kreutz neben dem Movie klicken, das man entfernen möchte. & So kann man ein Online Similar wieder entfernen \\
+	\hline
+\end{longtable}
+%%\end{tabular}
+
+\end{document}
+%}}}
+
+
+
+
+
+
+
