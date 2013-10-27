@@ -1,0 +1,242 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.gmf.runtime.diagram.ui.geoshapes,1.4.1.v20101119-2230,"org.eclipse.gmf.runtime.diagram.ui.geoshapes",1382625042187
+stopped,bundle,org.unicase.docExport,0.5.2,"org.unicase.docExport",1382625042188
+stopped,bundle,org.unicase.ui.diagram.usecaseDiagram,0.5.2,"org.unicase.ui.diagram.usecaseDiagram",1382625042188
+stopped,bundle,org.eclipse.gmf.runtime.diagram.ui.render,1.4.1.v20101119-2230,"org.eclipse.gmf.runtime.diagram.ui.render",1382625042189
+stopped,bundle,org.eclipse.gmf.runtime.diagram.ui.printing.render,1.4.1.v20101119-2230,"org.eclipse.gmf.runtime.diagram.ui.printing.render",1382625042189
+stopped,bundle,org.eclipse.gmf.runtime.diagram.ui.printing,1.4.1.v20101119-2230,"org.eclipse.gmf.runtime.diagram.ui.printing",1382625042190
+stopped,bundle,org.unicase.ui.dashboard,0.5.2,"org.unicase.ui.dashboard",1382625042190
+stopped,bundle,org.unicase.ui.multiaction,0.5.2,"org.unicase.ui.multiaction",1382625042190
+stopped,bundle,org.unicase.ui.stem,0.5.2,"org.unicase.ui.stem",1382625042191
+stopped,bundle,org.unicase.ui.tableview,0.5.2,"org.unicase.ui.tableview",1382625042191
+stopped,bundle,org.unicase.ui.workpackagetransfer,0.5.2,"org.unicase.ui.workpackagetransfer",1382625042191
+stopped,bundle,org.unicase.testcase.ui,1.0.1,"org.unicase.testcase.ui",1382625042191
+stopped,bundle,org.unicase.usecase.ui,1.0.1,"org.unicase.usecase.ui",1382625042192
+stopped,bundle,org.unicase.contextcompleteness,1.0.0,"org.unicase.contextcompleteness",1382625042192
+stopped,bundle,org.unicase.metrics,1.0.0,"org.unicase.metrics",1382625042192
+stopped,bundle,org.unicase.model.search,1.0.1,"org.unicase.model.search",1382625042193
+activated,perspective,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.JavaPerspective",1382625244906
+started,bundle,org.eclipse.osgi,3.7.2.v20120110-1415,"org.eclipse.osgi",1382625244906
+started,bundle,org.eclipse.equinox.simpleconfigurator,1.0.200.v20110815-1438,"org.eclipse.equinox.simpleconfigurator",1382625244907
+started,bundle,com.ibm.icu,4.4.2.v20110823,"com.ibm.icu",1382625244907
+started,bundle,org.eclipse.compare.core,3.5.200.I20110208-0800,"org.eclipse.compare.core",1382625244908
+started,bundle,org.eclipse.core.contenttype,3.4.100.v20110423-0524,"org.eclipse.core.contenttype",1382625244908
+started,bundle,org.eclipse.core.databinding.observable,1.4.0.I20110222-0800,"org.eclipse.core.databinding.observable",1382625244908
+started,bundle,org.eclipse.core.expressions,3.4.300.v20110228,"org.eclipse.core.expressions",1382625244909
+started,bundle,org.eclipse.core.filebuffers,3.5.200.v20110928-1504,"org.eclipse.core.filebuffers",1382625244909
+started,bundle,org.eclipse.core.filesystem,1.3.100.v20110423-0524,"org.eclipse.core.filesystem",1382625244909
+started,bundle,org.eclipse.core.jobs,3.5.101.v20120113-1953,"org.eclipse.core.jobs",1382625244910
+started,bundle,org.eclipse.core.net,1.2.100.I20110511-0800,"org.eclipse.core.net",1382625244910
+started,bundle,org.eclipse.core.resources,3.7.101.v20120125-1505,"org.eclipse.core.resources",1382625244910
+started,bundle,org.eclipse.core.runtime,3.7.0.v20110110,"org.eclipse.core.runtime",1382625244911
+started,bundle,org.eclipse.core.runtime.compatibility,3.2.100.v20100505,"org.eclipse.core.runtime.compatibility",1382625244911
+started,bundle,org.eclipse.core.runtime.compatibility.auth,3.2.200.v20110110,"org.eclipse.core.runtime.compatibility.auth",1382625244911
+started,bundle,org.eclipse.core.variables,3.2.500.v20110928-1503,"org.eclipse.core.variables",1382625244912
+started,bundle,org.eclipse.debug.core,3.7.1.v20111129-2031,"org.eclipse.debug.core",1382625244912
+started,bundle,org.eclipse.egit.core,1.3.0.201202151440-r,"org.eclipse.egit.core",1382625244912
+started,bundle,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui",1382625244913
+started,bundle,org.eclipse.epp.mpc.ui,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.ui",1382625244914
+started,bundle,org.eclipse.epp.usagedata.gathering,1.3.1.R201106061540,"org.eclipse.epp.usagedata.gathering",1382625244914
+started,bundle,org.eclipse.epp.usagedata.recording,1.3.1.R201106061540,"org.eclipse.epp.usagedata.recording",1382625244914
+started,bundle,org.eclipse.equinox.app,1.3.100.v20110321,"org.eclipse.equinox.app",1382625244914
+started,bundle,org.eclipse.equinox.common,3.6.0.v20110523,"org.eclipse.equinox.common",1382625244915
+started,bundle,org.eclipse.equinox.ds,1.3.1.R37x_v20110701,"org.eclipse.equinox.ds",1382625244915
+started,bundle,org.eclipse.equinox.event,1.2.100.v20110502,"org.eclipse.equinox.event",1382625244915
+started,bundle,org.eclipse.equinox.p2.core,2.1.1.v20120113-1346,"org.eclipse.equinox.p2.core",1382625244916
+started,bundle,org.eclipse.equinox.p2.directorywatcher,1.0.300.v20110815-1419,"org.eclipse.equinox.p2.directorywatcher",1382625244916
+started,bundle,org.eclipse.equinox.p2.engine,2.1.1.R37x_v20111003,"org.eclipse.equinox.p2.engine",1382625244916
+started,bundle,org.eclipse.equinox.p2.metadata,2.1.0.v20110815-1419,"org.eclipse.equinox.p2.metadata",1382625244917
+started,bundle,org.eclipse.equinox.p2.metadata.repository,1.2.0.v20110815-1419,"org.eclipse.equinox.p2.metadata.repository",1382625244917
+started,bundle,org.eclipse.equinox.p2.operations,2.1.1.R37x_v20111111,"org.eclipse.equinox.p2.operations",1382625244917
+started,bundle,org.eclipse.equinox.p2.reconciler.dropins,1.1.100.v20110815-1419,"org.eclipse.equinox.p2.reconciler.dropins",1382625244918
+started,bundle,org.eclipse.equinox.p2.repository,2.1.1.v20120113-1346,"org.eclipse.equinox.p2.repository",1382625244918
+started,bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.0.100.v20110815-1419,"org.eclipse.equinox.p2.ui.sdk.scheduler",1382625244918
+started,bundle,org.eclipse.equinox.p2.updatechecker,1.1.200.v20110815-1419,"org.eclipse.equinox.p2.updatechecker",1382625244918
+started,bundle,org.eclipse.equinox.preferences,3.4.2.v20120111-2020,"org.eclipse.equinox.preferences",1382625244919
+started,bundle,org.eclipse.equinox.registry,3.5.101.R37x_v20110810-1611,"org.eclipse.equinox.registry",1382625244919
+started,bundle,org.eclipse.equinox.security,1.1.1.R37x_v20110822-1018,"org.eclipse.equinox.security",1382625244919
+started,bundle,org.eclipse.equinox.util,1.0.300.v20110502,"org.eclipse.equinox.util",1382625244919
+started,bundle,org.eclipse.help,3.5.100.v20110426,"org.eclipse.help",1382625244920
+started,bundle,org.eclipse.jdt.apt.core,3.3.500.v20110420-1015,"org.eclipse.jdt.apt.core",1382625244920
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.400.v20110305-1450,"org.eclipse.jdt.apt.pluggable.core",1382625244921
+started,bundle,org.eclipse.jdt.core,3.7.3.v20120119-1537,"org.eclipse.jdt.core",1382625244921
+started,bundle,org.eclipse.jdt.core.manipulation,1.4.0.v20110928-1453,"org.eclipse.jdt.core.manipulation",1382625244921
+started,bundle,org.eclipse.jdt.launching,3.6.1.v20111006_r372,"org.eclipse.jdt.launching",1382625244922
+started,bundle,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui",1382625244922
+started,bundle,org.eclipse.jface,3.7.0.v20110928-1505,"org.eclipse.jface",1382625244922
+started,bundle,org.eclipse.jgit,1.3.0.201202151440-r,"org.eclipse.jgit",1382625244923
+started,bundle,org.eclipse.jsch.core,1.1.300.I20110514-0800,"org.eclipse.jsch.core",1382625244923
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.201.r372_v20111101-0700,"org.eclipse.ltk.core.refactoring",1382625244923
+started,bundle,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring",1382625244924
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.6.5.v20120123-0100,"org.eclipse.mylyn.bugzilla.core",1382625244924
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.bugzilla.ui",1382625244925
+started,bundle,org.eclipse.mylyn.commons.identity,0.8.0.v20110608-1400,"org.eclipse.mylyn.commons.identity",1382625244925
+started,bundle,org.eclipse.mylyn.commons.net,3.6.0.v20110608-1400,"org.eclipse.mylyn.commons.net",1382625244925
+started,bundle,org.eclipse.mylyn.commons.ui,3.6.1.v20110720-0100,"org.eclipse.mylyn.commons.ui",1382625244925
+started,bundle,org.eclipse.mylyn.context.core,3.6.1.v20110720-0100,"org.eclipse.mylyn.context.core",1382625244926
+started,bundle,org.eclipse.mylyn.context.ui,3.6.1.v20120112-0100,"org.eclipse.mylyn.context.ui",1382625244926
+started,bundle,org.eclipse.mylyn.monitor.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.monitor.ui",1382625244926
+started,bundle,org.eclipse.mylyn.tasks.ui,3.6.5.v20120215-0100,"org.eclipse.mylyn.tasks.ui",1382625244927
+started,bundle,org.eclipse.mylyn.team.ui,3.6.1.v20110825-0100,"org.eclipse.mylyn.team.ui",1382625244927
+started,bundle,org.eclipse.pde.launching,3.6.0.v20110506,"org.eclipse.pde.launching",1382625244927
+started,bundle,org.eclipse.pde.ui,3.6.100.v20120103_r372,"org.eclipse.pde.ui",1382625244929
+started,bundle,org.eclipse.search,3.7.0.v20110928-1504,"org.eclipse.search",1382625244929
+started,bundle,org.eclipse.team.core,3.6.0.I20110525-0800,"org.eclipse.team.core",1382625244930
+started,bundle,org.eclipse.team.cvs.core,3.3.400.I20110510-0800,"org.eclipse.team.cvs.core",1382625244930
+started,bundle,org.eclipse.team.cvs.ui,3.3.401.v20120126-1227,"org.eclipse.team.cvs.ui",1382625244931
+started,bundle,org.eclipse.team.ui,3.6.101.R37x_v20111109-0800,"org.eclipse.team.ui",1382625244932
+started,bundle,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui",1382625244932
+started,bundle,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console",1382625244933
+started,bundle,org.eclipse.ui.editors,3.7.0.v20110928-1504,"org.eclipse.ui.editors",1382625244933
+started,bundle,org.eclipse.ui.forms,3.5.101.v20111011-1919,"org.eclipse.ui.forms",1382625244933
+started,bundle,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.ide",1382625244934
+started,bundle,org.eclipse.ui.net,1.2.100.v20111208-1155,"org.eclipse.ui.net",1382625244935
+started,bundle,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views",1382625244935
+started,bundle,org.eclipse.ui.views.log,1.0.200.v20110404,"org.eclipse.ui.views.log",1382625244935
+started,bundle,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"org.eclipse.ui.workbench",1382625244936
+started,bundle,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.workbench.texteditor",1382625244936
+started,bundle,org.eclipse.update.configurator,3.3.100.v20100512,"org.eclipse.update.configurator",1382625244937
+started,bundle,org.eclipse.update.core,3.2.500.v20110330,"org.eclipse.update.core",1382625244937
+started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1382625244937
+started,bundle,org.eclipse.team.svn.core,0.7.9.I20120520-1700,"org.eclipse.team.svn.core",1382625244938
+started,bundle,org.eclipse.team.svn.mylyn,0.7.9.I20110318-1700,"org.eclipse.team.svn.mylyn",1382625244938
+started,bundle,org.eclipse.team.svn.revision.graph,0.7.9.I20111123-1700,"org.eclipse.team.svn.revision.graph",1382625244939
+started,bundle,org.eclipse.team.svn.ui,0.7.9.I20120520-1700,"org.eclipse.team.svn.ui",1382625244940
+started,bundle,org.polarion.eclipse.team.svn.connector.svnkit17,2.3.0.I20120520-1700,"org.polarion.eclipse.team.svn.connector.svnkit17",1382625244940
+started,bundle,com.instantiations.eclipse.debug,6.0.0.r37x201109091114,"com.instantiations.eclipse.debug",1382625244940
+started,bundle,com.instantiations.eclipse.startup,6.0.0.r37x201109091114,"com.instantiations.eclipse.startup",1382625244940
+started,bundle,com.instantiations.eclipse.util,6.0.0.r37x201109091114,"com.instantiations.eclipse.util",1382625244941
+started,bundle,net.sf.eclipsecs.core,5.5.0.201111092104,"net.sf.eclipsecs.core",1382625244941
+started,bundle,net.sf.eclipsecs.ui,5.5.0.201111092104,"net.sf.eclipsecs.ui",1382625244941
+started,bundle,net.sourceforge.vrapper.eclipse,0.36.0,"net.sourceforge.vrapper.eclipse",1382625244942
+os,sysinfo,,,"linux",1382625244944
+arch,sysinfo,,,"x86_64",1382625244944
+ws,sysinfo,,,"gtk",1382625244944
+locale,sysinfo,,,"en_GB",1382625244944
+processors,sysinfo,,,"4",1382625244944
+java.runtime.name,sysinfo,,,"OpenJDK Runtime Environment",1382625244944
+java.runtime.version,sysinfo,,,"1.7.0_45-b31",1382625244944
+java.specification.name,sysinfo,,,"Java Platform API Specification",1382625244944
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1382625244944
+java.specification.version,sysinfo,,,"1.7",1382625244944
+java.vendor,sysinfo,,,"Oracle Corporation",1382625244944
+java.version,sysinfo,,,"1.7.0_45",1382625244944
+java.vm.info,sysinfo,,,"mixed mode",1382625244944
+java.vm.name,sysinfo,,,"OpenJDK 64-Bit Server VM",1382625244944
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1382625244944
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1382625244944
+java.vm.specification.version,sysinfo,,,"1.7",1382625244944
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1382625244944
+java.vm.version,sysinfo,,,"24.45-b08",1382625244944
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1382625247916
+opened,view,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.views.ProblemView",1382625249672
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382625256453
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382625394865
+started,bundle,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui",1382625402875
+started,bundle,org.eclipse.jdt.debug,3.7.1.v20111006_r372,"org.eclipse.jdt.debug",1382625405901
+started,bundle,org.eclipse.jdt.debug.ui,3.6.1.v20111006_r372,"org.eclipse.jdt.debug.ui",1382625405944
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1382625405968
+opened,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1382625411411
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1382625417563
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1382625424673
+opened,view,org.eclipse.team.svn.ui,0.7.9.I20120520-1700,"org.eclipse.team.svn.ui.properties.PropertiesView",1382625443005
+activated,view,org.eclipse.team.svn.ui,0.7.9.I20120520-1700,"org.eclipse.team.svn.ui.properties.PropertiesView",1382625443029
+activated,view,org.eclipse.team.svn.ui,0.7.9.I20120520-1700,"org.eclipse.team.svn.ui.repository.RepositoriesView",1382625444166
+started,bundle,org.eclipse.compare,3.5.202.R37x_v20111109-0800,"org.eclipse.compare",1382625446519
+started,bundle,org.eclipse.equinox.security.ui,1.1.0.v20101004,"org.eclipse.equinox.security.ui",1382625446532
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382625446567
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382625450155
+error,log,,,"SVN: '0x00400107: Get Repository Resource Revision' operation finished with error",1382625450606
+error,log,,,"SVN: '0x00400107: Get Repository Resource Revision' operation finished with error",1382625450636
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382625456548
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382625456642
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382625456921
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382625458146
+started,bundle,com.instantiations.assist.eclipse.junit.editor,7.1.0.r37x201109091155,"com.instantiations.assist.eclipse.junit.editor",1382625459060
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1382625463226
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1382625463919
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1382625463998
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1382625464011
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1382625466131
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1382625466196
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1382625466209
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1382625468206
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1382625468275
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1382625468290
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1382625477216
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1382625477231
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382625487376
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626109954
+error,log,,,"The default variable is not iterable. Failed expression: \norg.eclipse.core.internal.expressions.IterateExpression@7ec146",1382626148315
+error,log,,,"The default variable is not iterable. Failed expression: \norg.eclipse.core.internal.expressions.IterateExpression@7ec146",1382626148315
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626151610
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1382626153209
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1382626153209
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626153217
+activated,view,org.eclipse.team.svn.ui,0.7.9.I20120520-1700,"org.eclipse.team.svn.ui.repository.RepositoriesView",1382626158385
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626161298
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626162669
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626162948
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626162984
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1382626164550
+error,log,,,"The default variable is not iterable. Failed expression: \norg.eclipse.core.internal.expressions.IterateExpression@7ec146",1382626164870
+error,log,,,"The default variable is not iterable. Failed expression: \norg.eclipse.core.internal.expressions.IterateExpression@7ec146",1382626164871
+error,log,,,"The default variable is not iterable. Failed expression: \norg.eclipse.core.internal.expressions.IterateExpression@7ec146",1382626177410
+error,log,,,"The default variable is not iterable. Failed expression: \norg.eclipse.core.internal.expressions.IterateExpression@7ec146",1382626177411
+error,log,,,"The default variable is not iterable. Failed expression: \norg.eclipse.core.internal.expressions.IterateExpression@7ec146",1382626185897
+error,log,,,"The default variable is not iterable. Failed expression: \norg.eclipse.core.internal.expressions.IterateExpression@7ec146",1382626185897
+activated,view,org.eclipse.team.svn.ui,0.7.9.I20120520-1700,"org.eclipse.team.svn.ui.repository.RepositoriesView",1382626188251
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626191371
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626225454
+error,log,,,"SVN: '0x00400107: Get Repository Resource Revision' operation finished with error",1382626228444
+error,log,,,"SVN: '0x00400107: Get Repository Resource Revision' operation finished with error",1382626228542
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626242138
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626242227
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626242237
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626242257
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626242258
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626252006
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626252289
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626252583
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1382626255360
+error,log,,,"The default variable is not iterable. Failed expression: \norg.eclipse.core.internal.expressions.IterateExpression@7ec146",1382626333386
+error,log,,,"The default variable is not iterable. Failed expression: \norg.eclipse.core.internal.expressions.IterateExpression@7ec146",1382626333387
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626335050
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1382626336264
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1382626336302
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1382626336302
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626336310
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1382626336328
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1382626336337
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1382626336352
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1382626336385
+activated,view,org.eclipse.team.svn.ui,0.7.9.I20120520-1700,"org.eclipse.team.svn.ui.repository.RepositoriesView",1382626343083
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626351206
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626351301
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626351584
+started,bundle,org.eclipse.pde.core,3.7.1.v20120103_r372,"org.eclipse.pde.core",1382626351596
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626351635
+started,bundle,org.eclipse.equinox.p2.garbagecollector,1.0.200.v20110815-1419,"org.eclipse.equinox.p2.garbagecollector",1382626351663
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1382626355763
+error,log,,,"The default variable is not iterable. Failed expression: \norg.eclipse.core.internal.expressions.IterateExpression@7ec146",1382626359751
+error,log,,,"The default variable is not iterable. Failed expression: \norg.eclipse.core.internal.expressions.IterateExpression@7ec146",1382626359751
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626361867
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1382626363457
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1382626363457
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626363465
+activated,view,org.eclipse.team.svn.ui,0.7.9.I20120520-1700,"org.eclipse.team.svn.ui.repository.RepositoriesView",1382626387338
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626395437
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1382626461982
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1382626464844
+error,log,,,"The default variable is not iterable. Failed expression: \norg.eclipse.core.internal.expressions.IterateExpression@7ec146",1382626464850
+error,log,,,"The default variable is not iterable. Failed expression: \norg.eclipse.core.internal.expressions.IterateExpression@7ec146",1382626464851
+error,log,,,"The default variable is not iterable. Failed expression: \norg.eclipse.core.internal.expressions.IterateExpression@7ec146",1382626480731
+error,log,,,"The default variable is not iterable. Failed expression: \norg.eclipse.core.internal.expressions.IterateExpression@7ec146",1382626480731
+executed,command,org.eclipse.team.svn.ui,0.7.9.I20120520-1700,"org.eclipse.team.svn.ui.command.UpdateCommand",1382626503936
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1382626511936
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1382626512004
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1382626512020
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1382626517840
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1382626586713
+error,log,,,"The default variable is not iterable. Failed expression: \norg.eclipse.core.internal.expressions.IterateExpression@7ec146",1382626586719
+error,log,,,"The default variable is not iterable. Failed expression: \norg.eclipse.core.internal.expressions.IterateExpression@7ec146",1382626586720

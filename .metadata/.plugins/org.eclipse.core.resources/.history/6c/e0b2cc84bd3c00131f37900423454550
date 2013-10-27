@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package movies.system;
+
+import java.util.List;
+import java.util.LinkedList;
+/**
+ * @author mox
+ *
+ */
+public class Customer {
+	public String name;
+	List<Movie> loanedMovies;
+	
+	public void loanMovie(Movie movie) {
+		//todo: Implement me
+	}
+	
+	
+	public Customer(String name) {
+		this.name=name;
+	}
+
+
+}

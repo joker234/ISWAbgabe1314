@@ -1,0 +1,21 @@
+Driver: Mox, Observer: Andrii
+
+Erstellt eine neue Klasse Customer.
+	
+	Importiert java.uti.LikedList
+	
+	Die Klasse hat Name name und eine Liste ausgeliehnen Filmen List<Moivie> LoanedMovies
+	
+	Constructor dazu
+		Kundenname wird übergeben
+		Liste wird erstellt
+		
+Driver: Andrii, Observer: Mox
+
+	Ändert Authorschaft der Klasse Customer auf Mox, Andrii
+	
+	Fügt der Klasse Movie ein Attribut Customer zu. Autogeneriert Setter/Getter dazu.
+
+	Fügt in Customer.loanMovie(Movie movie) eine Anweisung zu, die das Movie zur Liste der Ausgeliehenen Filme zufügt.
+	
+	Fügt weiterhin einen Vergleich ein, ob der Film schon ausgeliehen ist.	

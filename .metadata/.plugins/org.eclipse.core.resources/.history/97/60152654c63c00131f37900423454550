@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package movies.system;
+
+import java.util.List;
+import java.util.LinkedList;
+/**
+ * @author mox, andrii
+ *
+ */
+public class Customer {
+	public String name;
+	List<Movie> loanedMovies;
+	
+	public boolean loanMovie(Movie movie) {
+		//todo: Implement me
+		if (movie.getLoaningCustomer() == null && loanedMovies.size() < 5) {		
+			loanedMovies.add(movie);
+			movie.setLoaningCustomer(this);
+			return true;
+		}
+		else { 
+			System.out.println("You cannot loan more than 5 movies at once!")
+			return false;
+		}
+				
+	}
+	
+	
+	public Customer(String name) {
+		this.name=name;
+		this.loanedMovies=new LinkedList<Movie>();
+	}
+}
