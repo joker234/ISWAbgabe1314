@@ -1,0 +1,16 @@
+Aufgabe 2.7
+Johannes Visintini, Moritz Nöltner, Philip Bell, Andrii Solar
+
+Anforderungen müssen so formuliert sein, dass sowohl Kunde/Nutzer als auch der
+Programmierer damit etwas anfangen können. Dazu muss *unmissverständlich* klar
+sein was der Kunde will. Es darf kein Interpretationsspielraum entstehen, da
+das Produkt sonst von der Spezifikation abweicht.
+
+Die Kundenanforderung für das Feature „mehrere gleich Movies“ sind wie folgt:
+- Es darf keine Möglichkeit geben mehr Filme zu verleihen als gerade da sind.
+- Die Gesamtzahl der Filme* muss einfach zu verändern sein. Es können neue
+  Filme* gekauft werden und Filme* kaputt gehen.
+- Die Gesamtzahl der Filme* muss immer ≥ der Anzahl entliehener Filme* sein
+- Es muss intuitiv Bedienbar sein (hier gibt es Interpretationsspielraum)
+
+Filme* = damit ist ein Film mit dem gleichen Namen gemeint
