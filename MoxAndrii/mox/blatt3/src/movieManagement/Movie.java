@@ -1,167 +1,183 @@
 package movieManagement;
 
-/*
- * MovieManager
- *
- * Version 1.0 Moritz Nöltner
- *
- * You don't want to copy this.
- * But if, for whatever reason, you still want to, feel free.
- */
+import java.io.Serializable;
 
-/**
- * Movie
- * 
- * You don't want to copy this. But if, for whatever reason, you still want to,
- * feel free.
- * 
- * @version 22.10.2013
- * @author mox
- * @project noeltner-a23
- */
-public class Movie {
-	private String title;
-	private int time;
-	private Director director;
+public class Movie implements Serializable {
 
-	private final int number;
-	private static int nextNumber = 1;
+	private static final long serialVersionUID = 1L;
+	private String name;
+	private String place;
+	private int duration;
+	private Language language;
+	private String description;
+	private Country location;
+	private Customer loaningCustomer;
+	private int ID;
+	private static int IDRunner=0;
+	private static final String[] columnNames = {"ID",
+		"Name",
+		"Time",
+		"Language",
+		"Description",
+	"Place"};
+
 
 	/**
-	 * Constructor, creates a movie object.
-	 * 
-	 * @param title
-	 *            the movie's title
-	 * @param time
-	 *            the movie's runtime
+	 * @return the columnnames
 	 */
-	public Movie(String title, int time) {
-		this.title = title;
-		this.time = time;
-		this.number = nextNumber++; // Setzt die Nummer des Objekts und erhöht
-									// gleichzeitig die Klassenvariable
+	public static String[] getColumnnames() {
+		return columnNames;
 	}
 
 	/**
-	 * Constructor, creates a movie object.
-	 * 
-	 * @param title
-	 *            the movie's title
-	 * @param time
-	 *            the movie's runtime
-	 * @param director
-	 *            the director who directed the movie
+	 * @return the iD
 	 */
-	public Movie(String title, int time, Director director) {
-		this.title = title;
-		this.time = time;
-		this.number = nextNumber++; // Setzt die Nummer des Objekts und erhöht
-									// gleichzeitig die Klassenvariable
-		this.director = director;
+	public int getID() {
+		return ID;
 	}
 
 	/**
-	 * Gets the movie's title.
-	 * 
-	 * @return title the movie's title
+	 * @param iD the iD to set
 	 */
-	public String getTitle() {
-		return this.title;
+	public void setID(int iD) {
+		ID = iD;
 	}
 
 	/**
-	 * Gets the movie's runtime.
-	 * 
-	 * @return runtime the movie's runtime
+	 * @param name the name to set
 	 */
-	public int getTime() {
-		return this.time;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	/**
-	 * Gets the movie's serial number.
-	 * 
-	 * @return number the movie's serial number
+	 * @param duration the duration to set
 	 */
-	public int getNumber() {
-		return this.number;
+	public void setDuration(int duration) {
+		this.duration = duration;
+	}
+
+
+
+	/**
+	 * @return the place
+	 */
+	public String getPlace() {
+		return place;
 	}
 
 	/**
-	 * Sets the movie's title.
-	 * 
-	 * @param title
-	 *            the new title
+	 * @param place the place to set
 	 */
-	public void setTitle(String title) {
-		this.title = title;
+	public void setPlace(String place) {
+		this.place = place;
 	}
 
-	// Die this-Referenz weist immer auf das aktuelle Objekt.
-	// Sprich: Im Objekt mymovie vom Typ Movie, das ich unten anlege, weist
-	// this auf das Objekt mymovie. So ist es möglich, das Argument title
-	// der Methode setTitle vom Objektattribut title von Objekten der Klasse
-	// Movie zu unterscheiden.
-	// Genauere Erklärung mündlich, weil ich keine Ahnung habe, was man
-	// dazu noch mehr sagen soll.
-
-	/**
-	 * Sets the movie's runtime.
-	 * 
-	 * @param time
-	 *            the movie's runtime
-	 */
-	public void setTime(int time) {
-		this.time = time;
+	public Movie(String name, int dur, Language lang, String desc, Country loc, String place) {
+		this.name = name;
+		this.duration = dur;
+		this.language = lang;
+		this.description = desc;
+		this.location = loc;
+		this.place= place;
+		this.ID=IDRunner;
+		IDRunner++;
 	}
 
 	/**
-	 * @return the director
+	 * @return the loaningCustomer
 	 */
-	public Director getDirector() {
-		return director;
+	public Customer getLoaningCustomer() {
+		return loaningCustomer;
 	}
 
 	/**
-	 * @param director
-	 *            the director to set
+	 * @param loaningCustomer the loaningCustomer to set
 	 */
-	public void setDirector(Director director) {
-		this.director = director;
+	public void setLoaningCustomer(Customer loaningCustomer) {
+		this.loaningCustomer = loaningCustomer;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int getDuration() {
+		return duration;
+	}
+
+	public Language getLanguage() {
+		return language;
+	}
+
+	public void setLanguage(Language language) {
+		this.language = language;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public Country getLocation() {
+		return location;
+	}
+
+	public void setLocation(Country location) {
+		this.location = location;
 	}
 
 	/**
-	 * Returns a string representing the object.
-	 * 
-	 * @return String a string representing the object
+	 * Set the Xth field of a Movie.
+	 * @param field
 	 */
-	public String toString() {
-		return "Movie: " + this.title + " is the " + this.number
-				+ "th movie and it is " + this.time + "minutes long.";
+	public void setX(Object value, int field){
+		switch(field){
+		case 0:
+			//return mymovie.setID();
+			break;
+		case 1:
+			this.setName((String) value);
+			break;
+		case 2:
+			this.setDuration((int) value);
+			break;
+		case 3:
+			this.setLanguage((Language) value);
+			break;
+		case 4:
+			this.setDescription((String)value);
+			break;
+		case 5:
+			this.setPlace((String)value);
+			break;
+		}
 	}
 
 	/**
-	 * Main method, nuff said.
-	 * 
-	 * @param args
-	 *            the command line arguments to the program
+	 * Get the Xth field of a Movie.
+	 * @param field
+	 * @return fieldth field
 	 */
-	public static void main(String args[]) {
-		// Ein Objekt erzeugen, wie in 1.1.2 gefordert
-		final Movie mymovie;
-		mymovie = new Movie("DerFilmFilm", 100);
+	public Object getX(int field){
+		switch(field){
+		case 0:
+			return this.getID();
+		case 1:
+			return this.getName();
+		case 2:
+			return this.getDuration();
+		case 3:
+			return this.getLanguage();
+		case 4:
+			return this.getDescription();
+		case 5:
+			return this.getPlace();
+		}
+		return null;
 
-		// Und noch eins, weils so schön ist.
-		final Movie myothermovie = new Movie("DerAndereFilm", 92);
-
-		// Und dann testen, ob das alles so funktioniert, wie ich es mir gedacht
-		// hab.
-		final String s1 = mymovie.getTitle() + ": Länge " + mymovie.getTime()
-				+ ", Seriennummer " + mymovie.getNumber();
-		System.out.println(s1);
-		final String s2 = myothermovie.getTitle() + ": Länge "
-				+ myothermovie.getTime() + ", Seriennummer "
-				+ myothermovie.getNumber();
-		System.out.println(s2);
 	}
 }

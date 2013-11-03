@@ -4,4 +4,8 @@
 <fullyQualifiedTypeName name="movies.system.Language"/>
 <fullyQualifiedTypeName name="movies.system.Country"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="movieManagement.MovieManager"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="javax.swing.table.TableColumn"/>
+<fullyQualifiedTypeName name="javax.swing.table.DefaultTableCellRenderer"/>
 </qualifiedTypeNameHistroy>
