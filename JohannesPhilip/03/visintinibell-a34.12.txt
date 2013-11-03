@@ -1,0 +1,43 @@
+Aufgabe 3.4
+Johannes Visintini, Philip Bell
+
+Teilaufgabe 1:
+1:
+- Klasse: Movie
+- Methode: getDirector()
+- Schwere: mittel
+- gibt immer "null" zurück, die Variable director kann also nie ausgelesen
+  oder ausgegeben werden
+
+2:
+- Klasse: Director
+- Methode: getMovieCount()
+- Schwere: mittel
+- gibt immer 1337 zurück, die Variable movieCount kann also nie ausgelesen,
+  sondern nur ausgegeben werden
+
+3:
+- Klasse: Movie
+- Methode: addPerformer(final Performer performer)
+- Schwere: schwer
+- Code ist auskommentiert
+
+ausgelesen: den Wert der Variable bekommen um damit im Programm weiter
+ arbeiten zu können
+ausgegeben: den Wert der Variable direkt an stdout übergeben, ohne ihn in 
+ einer anderen Funktion verwenden zu können
+
+
+Teilaufgabe 2:
+Fehler 1 und Fehler 2:
+Method Definition Defects (nach Folie und [1])
+Geben die Methoden für alle Eingabewerte das richtige Ergebnis zurück?
+
+Fehler 3:
+Module Interface Defect (nach Folie und [1])
+Die Variable konnte nicht eindeutig zugeordnet werden, wir konnten ihn aber am
+besten diesem Defect zuordnen.
+Ändern die Methoden die zu ändernden Werte oder Objekte korrekt?
+
+
+[1] http://www.fing.edu.uy/inco/cursos/ingsoft/iis/files/JavaChk.html
