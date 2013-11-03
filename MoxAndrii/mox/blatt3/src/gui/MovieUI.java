@@ -19,7 +19,7 @@ import movieManagement.*;
 public class MovieUI extends JPanel {
 	private JTable table;
 	private JTextField filterText;
-	private JTextField statusText;
+	//private JTextField statusText;
 	private TableRowSorter<MovieTableModel> sorter;
 
 	public MovieUI(MovieManager movMan) {
@@ -46,14 +46,10 @@ public class MovieUI extends JPanel {
 						int viewRow = table.getSelectedRow();
 						if (viewRow < 0) {
 							//Selection got filtered away.
-							statusText.setText("");
+							//statusText.setText("");
 						} else {
-							int modelRow = 
-									table.convertRowIndexToModel(viewRow);
-							statusText.setText(
-									String.format("Selected Row in view: %d. " +
-											"Selected Row in model: %d.", 
-											viewRow, modelRow));
+							int modelRow = table.convertRowIndexToModel(viewRow);
+							//statusText.setText( String.format("Selected Row in view: %d. " + "Selected Row in model: %d.", viewRow, modelRow));
 						}
 					}
 				}
@@ -63,6 +59,7 @@ public class MovieUI extends JPanel {
 
 		//Create a separate form for filterText and statusText
 		JPanel form = new JPanel(new SpringLayout());
+		//JPanel form = new JPanel();
 		JLabel l1 = new JLabel("Filter Text:", SwingConstants.TRAILING);
 		form.add(l1);
 		filterText = new JTextField();
@@ -81,16 +78,17 @@ public class MovieUI extends JPanel {
 				});
 		l1.setLabelFor(filterText);
 		form.add(filterText);
-		JLabel l2 = new JLabel("Status:", SwingConstants.TRAILING);
-		form.add(l2);
-		statusText = new JTextField();
-		l2.setLabelFor(statusText);
-		form.add(statusText);
-		SpringUtilities.makeCompactGrid(form, 2, 2, 6, 6, 6, 6);
+		//JLabel l2 = new JLabel("Status:", SwingConstants.TRAILING);
+		//form.add(l2);
+		//statusText = new JTextField();
+		//l2.setLabelFor(statusText);
+		//form.add(statusText);
+		//SpringUtilities.makeCompactGrid(form, 2, 2, 6, 6, 6, 6);
+		SpringUtilities.makeCompactGrid(form, 1, 2, 6, 6, 6, 6);
 		add(form);
 		
 		
-        setUpSportColumn(table, table.getColumnModel().getColumn(3));
+        setUpLanguageColumn(table, table.getColumnModel().getColumn(3));
 
 
 		//Create the scroll pane and add the table to it.
@@ -108,7 +106,10 @@ public class MovieUI extends JPanel {
 		RowFilter<MovieTableModel, Object> rf = null;
 		//If current expression doesn't parse, don't update.
 		try {
-			rf = RowFilter.regexFilter(filterText.getText(), 0);
+			// We want the filter to search all columns
+			//rf = RowFilter.regexFilter(filterText.getText(), 0);
+			//rf = RowFilter.regexFilter(filterText.getText(), 1);
+			rf = RowFilter.regexFilter(filterText.getText());
 		} catch (java.util.regex.PatternSyntaxException e) {
 			return;
 		}
@@ -116,8 +117,8 @@ public class MovieUI extends JPanel {
 	}
 
 
-	public void setUpSportColumn(JTable table, TableColumn languageColumn) {
-		//Set up the editor for the sport cells.
+	public void setUpLanguageColumn(JTable table, TableColumn languageColumn) {
+		//Set up the editor for the language cells.
 		JComboBox comboBox = new JComboBox();
 		for(Language lang : Language.values())
 		{

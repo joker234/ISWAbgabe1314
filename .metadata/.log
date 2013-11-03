@@ -6072,3 +6072,43 @@ org.eclipse.core.runtime.AssertionFailedException: assertion failed:
 
 !ENTRY net.sourceforge.vrapper.eclipse 1 0 2013-11-03 23:29:01.809
 !MESSAGE TODO: implement ConvertingState's union efficently
+!SESSION 2013-11-03 23:43:09.865 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.ui.workbench 2 0 2013-11-03 23:43:12.938
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2013-11-03 23:43:12.938
+!MESSAGE Conflict for 'org.eclipse.emf.emfstore.client.ui.revert':
+HandlerActivation(commandId=org.eclipse.emf.emfstore.client.ui.revert,
+	handler=org.eclipse.emf.emfstore.client.ui.handlers.RevertHandler,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=org.eclipse.emf.emfstore.client.ui.revert,
+	handler=org.eclipse.emf.emfstore.client.ui.handlers.RevertHandler,
+	expression=,sourcePriority=0)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2013-11-03 23:43:12.942
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2013-11-03 23:43:12.943
+!MESSAGE Conflict for 'org.eclipse.emf.emfstore.client.ui.undoLastOperation':
+HandlerActivation(commandId=org.eclipse.emf.emfstore.client.ui.undoLastOperation,
+	handler=org.eclipse.emf.emfstore.client.ui.handlers.UndoLastOperationHandler,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=org.eclipse.emf.emfstore.client.ui.undoLastOperation,
+	handler=org.eclipse.emf.emfstore.client.ui.handlers.UndoLastOperationHandler,
+	expression=,sourcePriority=0)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2013-11-03 23:43:12.943
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2013-11-03 23:43:12.943
+!MESSAGE Conflict for 'org.eclipse.emf.emfstore.client.ui.importChanges':
+HandlerActivation(commandId=org.eclipse.emf.emfstore.client.ui.importChanges,
+	handler=org.eclipse.emf.emfstore.client.ui.handlers.exportimport.ImportChangesHandler,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=org.eclipse.emf.emfstore.client.ui.importChanges,
+	handler=org.eclipse.emf.emfstore.client.ui.handlers.exportimport.ImportChangesHandler,
+	expression=,sourcePriority=0)

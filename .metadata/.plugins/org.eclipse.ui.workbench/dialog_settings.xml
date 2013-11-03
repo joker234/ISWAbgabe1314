@@ -6,14 +6,6 @@
 		<item value="72" key="DIALOG_Y_ORIGIN"/>
 		<item value="193" key="DIALOG_X_ORIGIN"/>
 	</section>
-	<section name="NewWizardAction">
-	</section>
-	<section name="ZipFileImportWizard">
-		<item value="false" key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
-		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
-			<item value="/home/mox/uni/s5/isw/moviemanager/movies.rcp.product-linux.gtk.x86_64.zip"/>
-		</list>
-	</section>
 	<section name="ZipFileExportWizard">
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
@@ -22,12 +14,20 @@
 			<item value="/home/mox/scratch/isw/ISWAbgabe1314/MoxAndrii/noeltner-solar-a26.zip"/>
 		</list>
 	</section>
+	<section name="ZipFileImportWizard">
+		<item value="false" key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/home/mox/uni/s5/isw/moviemanager/movies.rcp.product-linux.gtk.x86_64.zip"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
 	<section name="ShowViewDialog">
 		<item value="359" key="DIALOG_WIDTH"/>
 		<item value="org.eclipse.team.svn.ui.repository.RepositoriesView" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
 		<item value="175" key="DIALOG_Y_ORIGIN"/>
-		<item value="403" key="DIALOG_HEIGHT"/>
 		<item value="221" key="DIALOG_X_ORIGIN"/>
+		<item value="403" key="DIALOG_HEIGHT"/>
 		<item value="1|Sans|10.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.team.svn"/>
