@@ -1,0 +1,77 @@
+\documentclass{scrartcl}
+
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+%\usepackage{ulem}
+%\usepackage{a4wide}
+\usepackage[top=2cm, bottom=2cm, left=1cm, right=1cm]{geometry}
+
+
+\begin{document}
+\title{ISW - Aufgabe 2.4b}
+\author{Johannes Visintini}
+\maketitle
+
+\section*{Aufgabe 2.4b}
+
+\begin{tabular}{|p{3.5cm}|p{2.5cm}|p{3.5cm}|p{2.5cm}|p{2cm}|p{2.5cm}|}\hline
+	Anzahl … \hspace{4em} einer Klasse &
+		Quelltextzeilen &
+		ø Quelltextzeilen pro Operation &
+		ø Parameter &
+		Attribute &
+		Operationen\\\hline
+	im Analysetool &
+		\tiny{Lines of Code} &
+		\tiny{Average Lines Of Code Per Method} &
+		\tiny{Average Number of Parameters} &
+		\tiny{Number of Fields} &
+		\tiny{Number of Methods}\\\hline
+	Gender &
+		4 &
+		0 &
+		0 &
+		2 &
+		0\\\hline
+	Performer &
+		61 &
+		4.0 &
+		0.45 &
+		6 &
+		11\\\hline
+	Movie &
+		76 &
+		4.64 &
+		0.46 &
+		5 &
+		13\\\hline
+	MovieManager &
+		30 &
+		27 &
+		1 &
+		0 &
+		1\\\hline
+\end{tabular}\\
+{\tiny(statt „Lines of Code“ könnte auch „Average Lines Of Code Per Method
+$\cdot$ Number of Methods“ gemeint gewesen sein)}\\
+
+Das \textit{Gender} sich stark von den anderen Klassen unterscheidet ist
+klar, da dies nur ein enum ist und daher nur die beiden Möglichkeiten
+beinhalten muss. \textit{Performer} und \textit{Movie} hingegen sind sich
+eigentlich in allen Punkten relativ ähnlich, da sie beide eine richtige
+Klasse darstellen. \textit{MovieManager} ist nur eine Util-Klasse, da
+diese nur die auszuführende main-Funktion enthält und hat deshalb auch nur
+eine Methode. Daher sind die Durchschnittswerte auch nicht
+Aussagekräftig.\\
+
+Durch das Erheben von Metriken muss sich der Programmierer mehr Gedanken
+um seinen Code machen. Dies hat den Nachteil dass der Programmierer so
+programmiert dass die Metriken „schön“ aus sehen. Es kann aber auch den
+Vorteil haben das ungewöhnliche Zahlen in der Metrik auf Fehler hindeuten
+können.\\
+Das gleiche gilt für Codeprüfer (Revisoren).\\
+Ein weiterer Nach-/Vorteil ist das ein Chef überprüfen kann wieviel Zeilen Attribute, Code der Programmierer pro Tag schafft ;)
+
+\end{document}

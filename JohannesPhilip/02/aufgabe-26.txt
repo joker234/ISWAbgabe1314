@@ -1,0 +1,27 @@
+Aufgabe 2.6
+Johannes Visintini, Philip Bell
+
+Observer: Johannes, Driver: Philip
+Legt die Klasse Customer mit den geforderten Attributen name und loanedMovies
+an.
+import hashSet und Set
+schreibt Konstruktoren und getter/setter
+in der Klasse Movie wird das Attribut loaner inkl. getter/setter angelegt. Im
+Konstruktor von Movie sollte keine Möglichkeit zum sofortigen Verleih gegeben
+werden.
+
+Observer: Philip, Driver: Johannes
+Erstellt eine Funktion loanMovie() die überprüft ob ein Film verliehen werden
+kann
+Die gewünschte Modifikation das max. 5 Filme an einen Customer verliehen
+werden können wird vorgenommen.
+Legt eine neue Klasse an in der die Test-Main-Funktion geschrieben wird zur
+Überprüfung der if-Abfragen in loanMovie().
+
+Erfahrungsbericht Philip und Johannes:
+Es war interessant zu sehen wie unterschiedlich man programmiert. Es ist
+allerdings besser zu verstehen, weil man sieht wie der Quelltext entsteht und
+was sich der jew. Programmierer gedacht hat. Im Quelltext (der sich nicht
+wirklich unterscheiden kann) musste sehr viel generisch Programmiert werden,
+so dass die Unterschiede zwischen den Programmierern nicht sehr deutlich
+wurden.
