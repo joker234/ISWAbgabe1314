@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="/dev/shm/asd-mox/home/mox/scratch/isw/ISWAbgabe1314/4er/MovieManager" key="org.eclipse.jdt.ui.last.external.project"/>
+	<item value="/dev/shm/asd-mox/home/mox/scratch/isw/ISWAbgabe1314/MoxAndrii/mox/blatt3" key="org.eclipse.jdt.ui.last.external.project"/>
 	<section name="OptionalMessageDialog.hide.">
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
 	</section>
@@ -18,6 +18,13 @@
 	<section name="RefactoringWizard.preview">
 		<item value="400" key="height"/>
 		<item value="600" key="width"/>
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="*" key="patterns"/>
+		<item value="false" key="updateQualifiedNames"/>
+		<item value="1" key="updateSimilarElementsMatchStrategy"/>
+		<item value="true" key="updateTextualMatches"/>
+		<item value="true" key="updateSimilarElements"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>

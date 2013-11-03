@@ -16,6 +16,7 @@ org.eclipse.jface.textfont=1|Monospace|10.0|0|GTK|1|;
 proposalOrderMigrated=true
 spelling_locale=en_GB
 spelling_locale_initialized=true
+spelling_user_dictionary=/home/mox/uni/s5/isw/eclipse-isw-ws1213/eclipse/configuration/org.eclipse.osgi/bundles/611/1/.cp/nl/en/GB/spelling.dictionary
 tabWidthPropagated=true
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true

@@ -3,4 +3,5 @@
 <fullyQualifiedTypeName name="movies.system.Movie"/>
 <fullyQualifiedTypeName name="movies.system.Language"/>
 <fullyQualifiedTypeName name="movies.system.Country"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
