@@ -1,0 +1,31 @@
+Aufgabe 3.3
+Johannes Visintini
+Anzahl der Quelltextzeilen in allen Operationen einer Klasse (Lines of Code):
+MovieUI: 35
+MovieTableModel: 43
+
+Durchschnittliche Anzahl Quelltextzeilen in den Operationen einer Klasse
+ (Average Lines of Code Per Method):
+Movie UI: 25
+MovieTableModel: 15
+
+Durchschnittliche Anzahl Inputparameter in den Operationen einer Klasse
+ (Average Number of Parameter):
+Movie UI: 1
+MovieTableModel: 0
+
+Anzahl Attribute in einer Klasse (Number of Fields):
+MovieUI: 0
+MovieTableModel: 5
+
+Anzahl Operationen in einer Klasse (Number of Methods):
+MovieUI: 1
+MovieTableModel: 1
+
+
+Customer wurde in Aufgabe 2.4b nicht Analysiert. Die Klassen MovieUI und
+MovieTableModel verhalten sich ähnlich zur MovieManager Klasse. Die MovieUI
+hat die gleiche Funktion wie der Movie Manager und besteht nur aus einer main
+Funktion. Die MovieTableModel besteht in meinem Fall nur aus einer Operation.
+Der Unterschied ist, dass diese Attribute besitzt. Deshalb ist die MovieUI
+nicht wirklich mit den Klassen aus Aufgabe 2.4b vergleichbar.
