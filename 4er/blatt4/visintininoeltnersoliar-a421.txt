@@ -1,0 +1,33 @@
+Es gibt einen Validierungsmodus in dem die Vollständigkeit der Einträge
+überprüft wird. Außerdem wird bei der Eingabe des Titels eine
+Auto-Vervollständigung des Titels angeboten. Die Titel werden aus der IMDB
+entnommen. Wenn ein valider Titel ausgewählt wurde, werden orig. Titel, Time,
+Category, Imdb Url und Overall Rating (ein Teil davon) aus IMDB geladen. Um
+Filme speichern zu können die nicht in der IMDB gespeichert werden, gibt es
+einen „Do not validate“ Button.
+Unsere Umsetzung des neuen Features ist besonders nutzerfreundlich, da sie
+keine großen Kenntnisse oder Einarbeitungunszeit erfordert, dies entspricht
+genau dem idealen Feature unseres Novice Users Ursel. Des weiteren ist sie
+sehr zeitsparend, da alles automatisch abläuft, dies entspricht genau dem
+idealen Feature unseres Expert Users Günther.
+
+Hää in 2.1 sollten wir uns irgendein Feature überlegen, was nichts mit dieser
+Aufgabenstellung zu tun hat.
+
++-----+-------------------+--------------------------+----------------------+--------------------+
+| Nr. | Name der Funktion | Beschreibung             | Eingabe              | Ausgabe            |
++-----+-------------------+--------------------------+----------------------+--------------------+
+| 1)  | Validate          | Validiert den Film durch | • Title              | • rote Fläche      |
+|     |                   | Werte aus der IMDB       | • orig. Title        | • grüne Fläche     |
+|     |                   |                          | • Time               |                    |  
+|     |                   |                          | • Category           |                    |
+|     |                   |                          | • Imdb Url           |                    |
+|     |                   |                          | • Overall Rating     |                    |
++-----+-------------------+--------------------------+----------------------+--------------------+
+| 2)  | Complete          | Vervollständigt den      | • Titleanfang        | • Array of         |
+|     |                   | Titel anhand der IMDB    | • orig. Title (opt.) |   {Title,Imdb Url} |
+|     |                   |                          | • Time (opt.)        |                    |
+|     |                   |                          | • Category (opt.)    |                    |
+|     |                   |                          | • Imdb Url (opt.)    |                    |
+|     |                   |                          | • Overall Rating(o.) |                    |
++-----+-------------------+--------------------------+----------------------+--------------------+
