@@ -10,6 +10,7 @@
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/dev/shm/asd-mox/home/mox/scratch/isw/ISWAbgabe1314/MoxAndrii/mox/blatt3/noeltner-a32.zip"/>
 			<item value="/home/mox/scratch/isw/ISWAbgabe1314/MoxAndrii/noeltner-a25.zip"/>
 			<item value="/home/mox/scratch/isw/ISWAbgabe1314/MoxAndrii/noeltner-solar-a26.zip"/>
 		</list>

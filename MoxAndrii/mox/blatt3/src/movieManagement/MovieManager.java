@@ -15,7 +15,7 @@ import java.util.HashMap;
 
 public class MovieManager {
 	
-	HashMap<String, Movie> movies;
+	HashMap<String, Movie> movies; // Der benutzt halt keine ArrayList, aber so what. Ich hab wirklich keine Lust, das nochmal neu zu machen!
 	
 	public MovieManager() {
 		movies = new HashMap<String, Movie>();

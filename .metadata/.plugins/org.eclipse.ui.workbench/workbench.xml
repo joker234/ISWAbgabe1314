@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="25" version="2.0">
+<workbench progressCount="31" version="2.0">
 <workbenchAdvisor/>
 <window height="900" width="1600" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -17,12 +17,12 @@
 <coolItem id="net.sourceforge.vrapper.toolbar" itemType="typeToolBarContribution" x="36" y="26"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="70" y="26"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="96" y="26"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="62" y="26"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="140" y="26"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="172" y="26"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -31,17 +31,18 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Gender.java" partName="Gender.java" path="/dev/shm/asd-mox/home/mox/scratch/isw/ISWAbgabe1314/03-moviemanager-inspection/src/movies/plain/Gender.java" title="Gender.java" tooltip="03-moviemanager-inspection/src/movies/plain/Gender.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/03-moviemanager-inspection/src/movies/plain/Gender.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="162" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
-<view id="com.instantiations.assist.eclipse.analysis.auditView" partName="Audit">
-<viewState>
-<com.instantiations.auditView showHigh="t" showLow="t" showMedium="t"/>
-</viewState>
-</view>
 <view id="org.eclipse.team.svn.ui.repository.RepositoriesView" partName="SVN Repositories">
 <viewState/>
 </view>
@@ -60,9 +61,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (31 items)"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="105" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -104,16 +102,16 @@
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
-<view id="com.instantiations.assist.eclipse.metricsView" partName="Metrics">
+<view id="org.eclipse.team.svn.ui.properties.PropertiesView" partName="SVN Properties">
 <viewState/>
 </view>
-<view id="org.eclipse.team.svn.ui.properties.PropertiesView" partName="SVN Properties">
+<view id="com.instantiations.assist.eclipse.metricsView" partName="Metrics">
 <viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -187,7 +185,6 @@
 <view id="org.eclipse.team.svn.ui.repository.RepositoriesView"/>
 <view id="org.eclipse.team.svn.ui.properties.PropertiesView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="com.instantiations.assist.eclipse.analysis.auditView"/>
 <view id="com.instantiations.assist.eclipse.metricsView"/>
 <fastViewBars/>
 <layout>
@@ -221,8 +218,8 @@
 <page content="org.eclipse.team.svn.ui.repository.RepositoriesView" label="SVN Repositories"/>
 <page content="org.eclipse.team.svn.ui.properties.PropertiesView" label="SVN Properties"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="com.instantiations.assist.eclipse.analysis.auditView" label="Audit"/>
 <page content="com.instantiations.assist.eclipse.metricsView" label="Metrics"/>
+<page content="com.instantiations.assist.eclipse.analysis.auditView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
@@ -238,7 +235,6 @@
 <part id="4"/>
 <part id="5"/>
 <part id="6"/>
-<part id="7"/>
 </presentation>
 </folder>
 </info>
@@ -354,15 +350,61 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/noeltner-a32/src/gui/MovieUI.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/noeltner-a32/src/movieManagement/MovieManager.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/noeltner-a32/src/gui/SpringUtilities.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/03-moviemanager-inspection/src/movies/plain/Gender.java"/>
+</editors>
+<item historyLabel="MovieUI.java" index="0">
+<position/>
+</item>
+<item historyLabel="MovieManager.java" index="1">
+<position info="not_deleted" x="572" y="0"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="SpringUtilities.java" index="2">
+<position info="not_deleted" x="1615" y="0"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="372" y="0"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="440" y="7"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="20" y="0"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="118" y="21"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="140" y="27"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="831" y="0"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="5865" y="0"/>
+</item>
+<item active="true" historyLabel="Gender.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 <trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
@@ -371,13 +413,21 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Gender.java" tooltip="03-moviemanager-inspection/src/movies/plain/Gender.java">
+<persistable path="/03-moviemanager-inspection/src/movies/plain/Gender.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SpringUtilities.java" tooltip="noeltner-a32/src/gui/SpringUtilities.java">
 <persistable path="/noeltner-a32/src/gui/SpringUtilities.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MovieUI.java" tooltip="noeltner-a32/src/gui/MovieUI.java">
+<persistable path="/noeltner-a32/src/gui/MovieUI.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MovieManager.java" tooltip="noeltner-a32/src/movieManagement/MovieManager.java">
+<persistable path="/noeltner-a32/src/movieManagement/MovieManager.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Country.java" tooltip="noeltner-a32/src/movieManagement/Country.java">
 <persistable path="/noeltner-a32/src/movieManagement/Country.java"/>
@@ -397,9 +447,6 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Movie.java" tooltip="noeltner-a32/src/movieManagement/Movie.java">
 <persistable path="/noeltner-a32/src/movieManagement/Movie.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MovieManager.java" tooltip="noeltner-a32/src/movieManagement/MovieManager.java">
-<persistable path="/noeltner-a32/src/movieManagement/MovieManager.java"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MovieManager.java" tooltip="02-movies-svn/src/movies/system/MovieManager.java">
 <persistable path="/02-movies-svn/src/movies/system/MovieManager.java"/>
 </file>
@@ -412,14 +459,8 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Movie.java" tooltip="02-movies-svn/src/movies/system/Movie.java">
 <persistable path="/02-movies-svn/src/movies/system/Movie.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MovieUI.java" tooltip="noeltner-a32/src/gui/MovieUI.java">
-<persistable path="/noeltner-a32/src/gui/MovieUI.java"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TableSortDemo.java" tooltip="noeltner-a32/src/gui/TableSortDemo.java">
 <persistable path="/noeltner-a32/src/gui/TableSortDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TableDemo.java" tooltip="noeltner-a32/src/gui/TableDemo.java">
-<persistable path="/noeltner-a32/src/gui/TableDemo.java"/>
 </file>
 </mruList>
 </workbench>
