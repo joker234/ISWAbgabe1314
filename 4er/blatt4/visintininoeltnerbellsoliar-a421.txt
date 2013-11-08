@@ -23,6 +23,7 @@ Aufgabenstellung zu tun hat.
 |     |                   |                          | • Category           |                    |
 |     |                   |                          | • Imdb Url           |                    |
 |     |                   |                          | • Overall Rating     |                    |
+|     |                   |                          | • Do not validate?   |                    |
 +-----+-------------------+--------------------------+----------------------+--------------------+
 | 2)  | Complete          | Vervollständigt den      | • Titleanfang        | • Array of         |
 |     |                   | Titel anhand der IMDB    | • orig. Title (opt.) |   {Title,Imdb Url} |
