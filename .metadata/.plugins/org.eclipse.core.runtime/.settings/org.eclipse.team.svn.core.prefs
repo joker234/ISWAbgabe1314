@@ -1,4 +1,4 @@
 eclipse.preferences.version=1
 externalMigrateFromAuthorizationDatabase/isMigrated=true
 migrateFromAuthorizationDatabase/isMigrated=true
-repositories/90796289bb3c00131f37900423454550=90796289bb3c00131f37900423454550;https\://svn.ifi.uni-heidelberg.de/repos/ws13/isw/teams/b04;https\://svn.ifi.uni-heidelberg.de/repos/ws13/isw/teams/b04;branches;tags;trunk;true;65839864-b419-47cd-8e90-8d3a7633cee7;https\://svn.ifi.uni-heidelberg.de/repos/ws13;;false;;;0
+repositories/90796289bb3c00131f37900423454550=90796289bb3c00131f37900423454550;https\://svn.ifi.uni-heidelberg.de/repos/ws13/isw/teams/b04;https\://svn.ifi.uni-heidelberg.de/repos/ws13/isw/teams/b04;branches;tags;trunk;true;65839864-b419-47cd-8e90-8d3a7633cee7;https\://svn.ifi.uni-heidelberg.de/repos/ws13;;false;<https\://svn.ifi.uni-heidelberg.de\:443> Subversion Repository;;0

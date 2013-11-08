@@ -1,9 +1,8 @@
+/**
+ * Mit massiver Hilfe von http://docs.oracle.com/javase/tutorial/uiswing/components/table.html
+ */
 
 package gui;
-
-/*
- * MovieUI.java requires SpringUtilities.java
- */
 
 import javax.swing.*;
 import javax.swing.event.*;
@@ -12,16 +11,31 @@ import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableColumn;
 import javax.swing.table.TableRowSorter;
 import java.awt.Dimension;
-import java.awt.Component;
+//import java.awt.Component;
 import movieManagement.*;
 
 
 public class MovieUI extends JPanel {
+	private static final long serialVersionUID = 8337140465783469323L;
+	/**
+	 * The Table that is displayed
+	 */
 	private JTable table;
+	
+	/**
+	 * Some damn text field
+	 */
 	private JTextField filterText;
 	//private JTextField statusText;
+	/**
+	 * The Sorter.
+	 */
 	private TableRowSorter<MovieTableModel> sorter;
 
+	/**
+	 * The UI.
+	 * @param movMan
+	 */
 	public MovieUI(MovieManager movMan) {
 		super();
 		setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
@@ -31,7 +45,7 @@ public class MovieUI extends JPanel {
 		sorter = new TableRowSorter<MovieTableModel>(model);
 		table = new JTable(model);
 		table.setRowSorter(sorter);
-		table.setPreferredScrollableViewportSize(new Dimension(500, 70));
+		table.setPreferredScrollableViewportSize(new Dimension(500, 70)); // What the f*** is magic about these Dimensions
 		table.setFillsViewportHeight(true);
 
 		//For the purposes of this example, better to have a single
@@ -40,6 +54,8 @@ public class MovieUI extends JPanel {
 
 		//When selection changes, provide user with row numbers for
 		//both view and model.
+		
+		// These f***ing lines are quite long. Still more readable, than breaking them. And any good editor will break the line where I need it anyway, so gtfo!
 		table.getSelectionModel().addListSelectionListener(
 				new ListSelectionListener() {
 					public void valueChanged(ListSelectionEvent event) {
@@ -84,11 +100,11 @@ public class MovieUI extends JPanel {
 		//l2.setLabelFor(statusText);
 		//form.add(statusText);
 		//SpringUtilities.makeCompactGrid(form, 2, 2, 6, 6, 6, 6);
-		SpringUtilities.makeCompactGrid(form, 1, 2, 6, 6, 6, 6);
+		SpringUtilities.makeCompactGrid(form, 1, 2, 6, 6, 6, 6);	// If 6 is considered a magic number, how do Java-developers copulate?
 		add(form);
-		
-		
-        setUpLanguageColumn(table, table.getColumnModel().getColumn(3));
+
+
+        setUpLanguageColumn(table, table.getColumnModel().getColumn(3));	// Too bad getColumn() uses an Int...
 
 
 		//Create the scroll pane and add the table to it.
@@ -98,7 +114,7 @@ public class MovieUI extends JPanel {
 		add(scrollPane);
 	}
 
-	/** 
+	/**
 	 * Update the row filter regular expression from the expression in
 	 * the text box.
 	 */
@@ -138,7 +154,7 @@ public class MovieUI extends JPanel {
 	class MovieTableModel extends AbstractTableModel {
 
 
-		private MovieManager movieManager;
+		private MovieManager movieManager; // Das ist der aus dem SVN. Ich hab _wirklich_ keine Lust, nochmal einen zu implementieren
 
 		public MovieTableModel(MovieManager manager){
 			super();
