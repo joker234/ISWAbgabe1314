@@ -3,4 +3,5 @@
 \beamer@sectionintoc {1}{Bisheriger Zustand}{3}{0}{1}
 \beamer@sectionintoc {2}{Verbesserungsvorschläge}{4}{0}{2}
 \beamer@subsectionintoc {2}{1}{Probleme und Lösungen}{4}{0}{2}
-\beamer@subsectionintoc {2}{2}{Verbessertes UI}{8}{0}{2}
+\beamer@subsectionintoc {2}{2}{Umsetzung}{8}{0}{2}
+\beamer@subsectionintoc {2}{3}{Verbessertes UI}{11}{0}{2}

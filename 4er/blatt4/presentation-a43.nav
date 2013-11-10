@@ -14,13 +14,16 @@
 \headcommand {\beamer@subsectionentry {0}{2}{1}{4}{Probleme und Lösungen}}\headcommand {\beamer@subsectionpages {4}{3}}
 \headcommand {\slideentry {2}{1}{1}{4/7}{Probleme und Lösungen}{0}}
 \headcommand {\beamer@framepages {4}{7}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{8}{Verbessertes UI}}\headcommand {\beamer@subsectionpages {4}{7}}
-\headcommand {\slideentry {2}{2}{1}{8/8}{Verbessertes UI}{0}}
-\headcommand {\beamer@framepages {8}{8}}
-\headcommand {\slideentry {3}{0}{2}{9/9}{}{0}}
-\headcommand {\beamer@framepages {9}{9}}
-\headcommand {\beamer@partpages {1}{9}}
-\headcommand {\beamer@subsectionpages {9}{9}}
-\headcommand {\beamer@sectionpages {9}{9}}
-\headcommand {\beamer@documentpages {9}}
-\headcommand {\def \inserttotalframenumber {6}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{8}{Umsetzung}}\headcommand {\beamer@subsectionpages {4}{7}}
+\headcommand {\slideentry {2}{2}{1}{8/10}{Umsetzung}{0}}
+\headcommand {\beamer@framepages {8}{10}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{11}{Verbessertes UI}}\headcommand {\beamer@subsectionpages {8}{10}}
+\headcommand {\slideentry {2}{3}{1}{11/11}{Verbessertes UI}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\slideentry {3}{0}{2}{12/12}{}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\beamer@partpages {1}{12}}
+\headcommand {\beamer@subsectionpages {12}{12}}
+\headcommand {\beamer@sectionpages {12}{12}}
+\headcommand {\beamer@documentpages {12}}
+\headcommand {\def \inserttotalframenumber {7}}

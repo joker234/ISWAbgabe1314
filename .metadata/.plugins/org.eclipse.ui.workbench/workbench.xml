@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="31" version="2.0">
 <workbenchAdvisor/>
-<window height="900" width="1600" x="0" y="0">
+<window height="899" width="1600" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -33,13 +33,23 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Gender.java" partName="Gender.java" path="/dev/shm/asd-mox/home/mox/scratch/isw/ISWAbgabe1314/03-moviemanager-inspection/src/movies/plain/Gender.java" title="Gender.java" tooltip="03-moviemanager-inspection/src/movies/plain/Gender.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/03-moviemanager-inspection/src/movies/plain/Gender.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="162" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MovieUI.java" partName="MovieUI.java" path="/home/mox/scratch/isw/ISWAbgabe1314/MoxAndrii/mox/blatt4/src/gui/MovieUI.java" title="MovieUI.java" tooltip="noeltner-a44/src/gui/MovieUI.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/noeltner-a44/src/gui/MovieUI.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8799" selectionTopPixel="4845"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MovieManager.java" partName="MovieManager.java" path="/home/mox/scratch/isw/ISWAbgabe1314/MoxAndrii/mox/blatt4/src/movieManagement/MovieManager.java" title="MovieManager.java" tooltip="noeltner-a44/src/movieManagement/MovieManager.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/noeltner-a44/src/movieManagement/MovieManager.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2729" selectionTopPixel="1605"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Movie.java" partName="Movie.java" path="/home/mox/scratch/isw/ISWAbgabe1314/MoxAndrii/mox/blatt4/src/movieManagement/Movie.java" title="Movie.java" tooltip="noeltner-a44/src/movieManagement/Movie.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/noeltner-a44/src/movieManagement/Movie.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="315" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -61,7 +71,11 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="105" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
+<expanded>
+<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings (2 items)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="626" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -111,7 +125,7 @@
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -178,7 +192,6 @@
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
@@ -186,6 +199,7 @@
 <view id="org.eclipse.team.svn.ui.properties.PropertiesView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="com.instantiations.assist.eclipse.metricsView"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -210,8 +224,8 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25222552" ratioLeft="255" ratioRight="756" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.72090113" ratioLeft="576" ratioRight="223" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<info folder="true" part="bottom" ratio="0.77221525" ratioLeft="617" ratioRight="182" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
@@ -352,52 +366,159 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/noeltner-a32/src/gui/MovieUI.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/noeltner-a32/src/movieManagement/MovieManager.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/noeltner-a32/src/gui/SpringUtilities.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/03-moviemanager-inspection/src/movies/plain/Gender.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/noeltner-a44/src/gui/MovieUI.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/noeltner-a44/src/movieManagement/MovieManager.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/noeltner-a44/src/movieManagement/Movie.java"/>
 </editors>
 <item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="1330" y="0"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="2314" y="0"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="6138" y="0"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="6142" y="0"/>
+</item>
+<item historyLabel="MovieManager.java" index="1">
+<position info="not_deleted" x="3176" y="0"/>
+</item>
+<item historyLabel="MovieManager.java" index="1">
+<position info="not_deleted" x="3176" y="0"/>
+</item>
+<item historyLabel="MovieManager.java" index="1">
 <position/>
 </item>
 <item historyLabel="MovieManager.java" index="1">
-<position info="not_deleted" x="572" y="0"/>
+<position info="not_deleted" x="2319" y="0"/>
+</item>
+<item historyLabel="MovieManager.java" index="1">
+<position info="not_deleted" x="2048" y="0"/>
+</item>
+<item historyLabel="Movie.java" index="2">
+<position info="not_deleted" x="315" y="0"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="6107" y="0"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="6192" y="0"/>
 </item>
 <item historyLabel="MovieUI.java" index="0">
 <position/>
 </item>
 <item historyLabel="MovieUI.java" index="0">
-<position info="not_deleted" x="4" y="0"/>
-</item>
-<item historyLabel="SpringUtilities.java" index="2">
-<position info="not_deleted" x="1615" y="0"/>
+<position/>
 </item>
 <item historyLabel="MovieUI.java" index="0">
-<position info="not_deleted" x="4" y="0"/>
+<position/>
 </item>
 <item historyLabel="MovieUI.java" index="0">
-<position info="not_deleted" x="372" y="0"/>
+<position/>
 </item>
 <item historyLabel="MovieUI.java" index="0">
-<position info="not_deleted" x="440" y="7"/>
+<position info="not_deleted" x="2543" y="0"/>
 </item>
 <item historyLabel="MovieUI.java" index="0">
-<position info="not_deleted" x="20" y="0"/>
+<position/>
 </item>
 <item historyLabel="MovieUI.java" index="0">
-<position info="not_deleted" x="118" y="21"/>
+<position/>
 </item>
 <item historyLabel="MovieUI.java" index="0">
-<position info="not_deleted" x="140" y="27"/>
+<position/>
 </item>
 <item historyLabel="MovieUI.java" index="0">
-<position info="not_deleted" x="831" y="0"/>
+<position info="not_deleted" x="104" y="0"/>
 </item>
 <item historyLabel="MovieUI.java" index="0">
-<position info="not_deleted" x="5865" y="0"/>
+<position/>
 </item>
-<item active="true" historyLabel="Gender.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="MovieUI.java" index="0">
+<position/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="5467" y="0"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="3160" y="0"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="3159" y="0"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="3860" y="0"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="4448" y="0"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="2447" y="0"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="4493" y="0"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="2401" y="0"/>
+</item>
+<item historyLabel="MovieManager.java" index="1">
+<position info="not_deleted" x="2048" y="0"/>
+</item>
+<item historyLabel="MovieManager.java" index="1">
+<position info="not_deleted" x="2729" y="0"/>
+</item>
+<item historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="2401" y="0"/>
+</item>
+<item active="true" historyLabel="MovieUI.java" index="0">
+<position info="not_deleted" x="8641" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -405,6 +526,12 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 <trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
@@ -417,6 +544,15 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Movie.java" tooltip="noeltner-a44/src/movieManagement/Movie.java">
+<persistable path="/noeltner-a44/src/movieManagement/Movie.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MovieManager.java" tooltip="noeltner-a44/src/movieManagement/MovieManager.java">
+<persistable path="/noeltner-a44/src/movieManagement/MovieManager.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MovieUI.java" tooltip="noeltner-a44/src/gui/MovieUI.java">
+<persistable path="/noeltner-a44/src/gui/MovieUI.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Gender.java" tooltip="03-moviemanager-inspection/src/movies/plain/Gender.java">
 <persistable path="/03-moviemanager-inspection/src/movies/plain/Gender.java"/>
 </file>
@@ -449,18 +585,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MovieManager.java" tooltip="02-movies-svn/src/movies/system/MovieManager.java">
 <persistable path="/02-movies-svn/src/movies/system/MovieManager.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Customer.java" tooltip="02-movies-svn/src/movies/system/Customer.java">
-<persistable path="/02-movies-svn/src/movies/system/Customer.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Country.java" tooltip="02-movies-svn/src/movies/system/Country.java">
-<persistable path="/02-movies-svn/src/movies/system/Country.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Movie.java" tooltip="02-movies-svn/src/movies/system/Movie.java">
-<persistable path="/02-movies-svn/src/movies/system/Movie.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TableSortDemo.java" tooltip="noeltner-a32/src/gui/TableSortDemo.java">
-<persistable path="/noeltner-a32/src/gui/TableSortDemo.java"/>
 </file>
 </mruList>
 </workbench>

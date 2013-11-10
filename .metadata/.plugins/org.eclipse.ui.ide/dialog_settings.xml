@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
-		<item value="/dev/shm/asd-mox/home/mox/scratch/isw/ISWAbgabe1314/4er/MovieManager" key="OUTSIDE_LOCATION"/>
+		<item value="/home/mox/scratch/isw/ISWAbgabe1314/MoxAndrii/mox/blatt4" key="OUTSIDE_LOCATION"/>
 	</section>
 	<section name="ExternalProjectImportWizard">
 		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
