@@ -1,0 +1,146 @@
+%{{{ Heading Stuff
+
+%{{{ Documentclass, usepackages
+%\documentclass[ngerman, landscape]{scrartcl}
+\documentclass[ngerman]{scrartcl}
+\usepackage[ngerman]{babel}
+%}}}
+
+%{{{ Titel, Author, etc...
+
+\newcommand{\blattnummer}{6}												%% Nummer des Übungsblattes angeben
+\newcommand{\myauthor}{Moritz Nöltner, Johannes Visintini, Philip Bell}
+\newcommand{\mytutor}{Amin Kiem}
+\newcommand{\mytitle}{Abgabe für ISW Blatt \blattnummer}
+\title{\mytitle}
+\author{\myauthor}
+%}}}
+
+%{{{ Kopf und Fußzeilen einrichten
+\usepackage{fontspec, fancyhdr}
+\pagestyle{fancy}
+
+\lhead{\bfseries \mytitle}
+%%\chead{\mytitle}
+\rhead{\bfseries \myauthor}
+
+\lfoot{\bfseries \today}
+\cfoot{Tutor: \mytutor}
+\rfoot{\bfseries \thepage}
+
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+%\textheight = 592pt	%% Standardwert
+\textheight = 650pt 	%% Für Hochformat
+%%\textheight = 450pt 	%% Für Querformat
+%}}}
+
+%{{{ Longtable
+
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{pdfpages}
+%}}}
+
+%{{{ Minted (Highlighter für Code)
+
+%% \usepackage{minted}
+%% \definecolor{bg}{rgb}{0.95,0.95,0.95}
+%% \newminted[Java]{java}{numbersep=5pt, bgcolor=bg, gobble=0, linenos, tabsize=4}
+%}}}
+
+
+%}}}
+
+
+\begin{document}
+	\setcounter{section}{\blattnummer}
+	\subsection{Systemtestfälle}
+	\subsubsection{}
+
+	%{{{ Testfalltabelle
+
+	\begin{tiny}
+		\newcounter{rowcount}
+		\setcounter{rowcount}{0}
+		\begin{longtable}{@{\stepcounter{rowcount}} |l|l||l|l|l|  }
+			\hline
+			Nr.  & Systemfunktion & Beschreibung & Eingabe & Ausgabe \\
+			\hline
+			\hline
+			\therowcount) & showAllFilmsWithPerformer & Zeigt alle Filme, in denen ein Schauspieler vorkommt & Performer & Filmliste\\
+			\hline
+			\therowcount) & search & Sucht nach Filmen mit passendem Namen & Filmnamensteil & Filmliste\\
+			\hline
+			\therowcount) & matchMovieWithIMDB & Gleicht Filmdaten mit IMDB ab & Film & Nichts\\
+			\hline
+			\therowcount) & suggestMovie & Schlägt ähnliche Filme vor & Film & Filmliste\\
+			\hline
+			\therowcount) & uploadImagePreview & lädt ein Vorschaubild zum Film & Bild & Nichts\\
+			\hline
+			\therowcount) & setMovieName & Setzt den Namen des Films & Film, Filmname & Nichts\\
+			\hline
+			\therowcount) & setIMDBLink & Setzt einen Link zum entsprechenden IMDB-Titel & Film, Link & Bool\\
+			\hline
+			\hline
+			\therowcount) & Overview.AddMovie        		& Fügt einen Film hinzu & Film & Nichts\\
+			\hline
+			\therowcount) & Overview.AddMovieCollection		& Fügt eine Filmsammlung hinzu & Filmsammlung & Nichts\\
+			\hline
+			\therowcount) & Overview.AddPerformer    		& Fügt einen Darsteller hinzu & Darsteller & Nichts\\
+			\hline
+			\hline
+			\therowcount) & Overview.ListMovies      		& Zeigt alle Filme an & Nichts & Nichts\\
+			\hline
+			\therowcount) & Overview.ListPerformers  		& Zeigt alle Darsteller an & Nichts & Nichts\\
+			\hline
+			\therowcount) & Overview.LoadProject     		& \emph{Was ist hier ein Projekt? Was soll diese Funktion tun?} & \emph{unbekannt} & \emph{unbekannt}\\
+			\hline
+			\therowcount) & Overview.CreateProject   		& \emph{Was ist hier ein Projekt? Was soll diese Funktion tun?} & \emph{unbekannt} & \emph{unbekannt}\\
+			\hline
+			\therowcount) & Overview.ShareProject    		& \emph{Was ist hier ein Projekt? Was soll diese Funktion tun?} & \emph{unbekannt} & \emph{unbekannt}\\
+			\hline
+			\therowcount) & Overview.CommitProject   		& \emph{Was ist hier ein Projekt? Was soll diese Funktion tun?} & \emph{unbekannt} & \emph{unbekannt}\\
+			\hline
+			\therowcount) & Overview.UpdateProject   		& \emph{Was ist hier ein Projekt? Was soll diese Funktion tun?} & \emph{unbekannt} & \emph{unbekannt}\\
+			\hline
+			\therowcount) & Overview.DeleteProject   		& \emph{Was ist hier ein Projekt? Was soll diese Funktion tun?} & \emph{unbekannt} & \emph{unbekannt}\\
+			\hline
+			\hline
+			\therowcount) & Movies.SortMovies        		& Sortiert die Filme in der Ansicht & Nichts & Nichts\\
+			\hline
+			\therowcount) & Movies.ModifyMovie       		& Ändert die Attribute eines Films & Film, Attribut, Attributwert & Nichts\\
+			\hline
+			\therowcount) & Movies.ShowMovie         		& Zeigt Detailansicht eines Films an & Film & Nichts\\
+			\hline
+			\therowcount) & Movies.RateMovie         		& Ändert Bewertung eines Films & Film, Bewertung & Nichts\\
+			\hline
+			\therowcount) & Movies.WatchMovie        		& \emph{Spielt das einen Film ab?} & Film & Nichts\\
+			\hline
+			\therowcount) & Movies.LoanMovie         		& Ändert Status eines Films auf verliehen & Film & Nichts\\
+			\hline
+			\therowcount) & Movies.ReceivedreturnedMovie	& \emph{Tja, was auch immer das tut\ldots} & \emph{unbekannt} & \emph{unbekannt}\\
+			\hline
+			\therowcount) & Movies.OverallRatingOfMovie		& Zeigt die Gesammtwertung eines Film an & Film & Bewertung\\
+			\hline
+			\hline
+			\therowcount) & Performers.SortPerformer 		& Sortiert die Schauspieler in der Ansicht & Nichts & Nichts\\
+			\hline
+			\therowcount) & Performers.ModifyPerformer		& Ändert die Attribute eines Schauspielers & Schauspieler, Attribut, Attributwert & Nichts\\
+			\hline
+			\therowcount) & Performers.DeletePerformer		& Löscht einen Schauspieler & Schauspieler & Nichts\\
+			\hline
+			\therowcount) & Performers.ShowPerformer 		& Zeigt Detailansicht eines Schauspielers an & Schauspieler & Nichts\\
+			\hline
+			\therowcount) & Performers.RatePerformer 		& Ändert Bewertung eines Schauspielers & Schauspieler, Bewertung & Nichts\\
+			\hline
+			\hline
+			\therowcount) & Projects.CheckoutProject 		& \emph{Was ist hier ein Projekt? Was soll diese Funktion tun?} & \emph{unbekannt} & \emph{unbekannt}\\
+			\hline
+			%%checkInput & Prüft, dass der(input) -> Bool
+		\end{longtable}
+	\end{tiny}
+	%}}}
+
+\end{document}
