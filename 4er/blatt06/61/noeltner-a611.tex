@@ -64,6 +64,7 @@
 	\begin{tiny}
 		\newcounter{rowcount}
 		\setcounter{rowcount}{0}
+		%\begin{tabular}{@{\stepcounter{rowcount}\therowcount.)\hspace*{\tabcolsep}}ll}
 		\begin{longtable}{@{\stepcounter{rowcount}} |l|l||l|l|l|  }
 			\hline
 			Nr.  & Systemfunktion & Beschreibung & Eingabe & Ausgabe \\
@@ -89,7 +90,6 @@
 			\therowcount) & Overview.AddMovieCollection		& Fügt eine Filmsammlung hinzu & Filmsammlung & Nichts\\
 			\hline
 			\therowcount) & Overview.AddPerformer    		& Fügt einen Darsteller hinzu & Darsteller & Nichts\\
-			\hline
 			\hline
 			\therowcount) & Overview.ListMovies      		& Zeigt alle Filme an & Nichts & Nichts\\
 			\hline

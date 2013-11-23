@@ -1,0 +1,64 @@
+%{{{ Heading Stuff
+
+%{{{ Documentclass, usepackages
+%\documentclass[ngerman, landscape]{scrartcl}
+\documentclass[ngerman]{scrartcl}
+\usepackage[ngerman]{babel}
+%}}}
+
+%{{{ Titel, Author, etc...
+
+\newcommand{\blattnummer}{6}												%% Nummer des Übungsblattes angeben
+\newcommand{\myauthor}{Moritz Nöltner, Johannes Visintini, Philip Bell}
+\newcommand{\mytutor}{Amin Kiem}
+\newcommand{\mytitle}{Abgabe für ISW Blatt \blattnummer}
+\title{\mytitle}
+\author{\myauthor}
+%}}}
+
+%{{{ Kopf und Fußzeilen einrichten
+\usepackage{fontspec, fancyhdr}
+\pagestyle{fancy}
+
+\lhead{\bfseries \mytitle}
+%%\chead{\mytitle}
+\rhead{\bfseries \myauthor}
+
+\lfoot{\bfseries \today}
+\cfoot{Tutor: \mytutor}
+\rfoot{\bfseries \thepage}
+
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+%\textheight = 592pt	%% Standardwert
+\textheight = 650pt 	%% Für Hochformat
+%%\textheight = 450pt 	%% Für Querformat
+%}}}
+
+%{{{ Longtable
+
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{pdfpages}
+%}}}
+
+%{{{ Minted (Highlighter für Code)
+
+%% \usepackage{minted}
+%% \definecolor{bg}{rgb}{0.95,0.95,0.95}
+%% \newminted[Java]{java}{numbersep=5pt, bgcolor=bg, gobble=0, linenos, tabsize=4}
+%}}}
+
+
+%}}}
+
+
+\begin{document}
+	\setcounter{section}{\blattnummer}
+	\subsection{Systemtestfälle}
+	\setcounter{subsubsection}{2}
+	\subsubsection{Probleme der Überarbeiteten Aufgabe}
+	Da wir in Aufgabe 5.1 keine Funktionen erfunden hatten, haben wir jetzt auch keine Probleme damit, da wir erst jetzt (vor dem Hintergrund dieser Aufgabe) diese Funktionen erfanden.
+
+\end{document}
