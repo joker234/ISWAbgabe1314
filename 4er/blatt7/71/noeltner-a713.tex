@@ -1,0 +1,77 @@
+%{{{ Heading Stuff
+
+%{{{ Documentclass, usepackages
+%\documentclass[ngerman, landscape]{scrartcl}
+\documentclass[ngerman]{scrartcl}
+\usepackage[ngerman]{babel}
+%}}}
+
+%{{{ Titel, Author, etc...
+
+\newcommand{\blattnummer}{7}												%% Nummer des Übungsblattes angeben
+\newcommand{\myauthor}{Moritz Nöltner, Johannes Visintini, Philip Bell}
+\newcommand{\mytutor}{Amin Kiem}
+\newcommand{\mytitle}{Abgabe für ISW Blatt \blattnummer}
+\title{\mytitle}
+\author{\myauthor}
+%}}}
+
+%{{{ Kopf und Fußzeilen einrichten
+\usepackage{fontspec, fancyhdr}
+\pagestyle{fancy}
+
+\lhead{\bfseries \mytitle}
+%%\chead{\mytitle}
+\rhead{\bfseries \myauthor}
+
+\lfoot{\bfseries \today}
+\cfoot{Tutor: \mytutor}
+\rfoot{\bfseries \thepage}
+
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+%\textheight = 592pt	%% Standardwert
+\textheight = 650pt 	%% Für Hochformat
+%%\textheight = 450pt 	%% Für Querformat
+%}}}
+
+%{{{ Longtable
+
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{pdfpages}
+%}}}
+
+%{{{ Minted (Highlighter für Code)
+
+%% \usepackage{minted}
+%% \definecolor{bg}{rgb}{0.95,0.95,0.95}
+%% \newminted[Java]{java}{numbersep=5pt, bgcolor=bg, gobble=0, linenos, tabsize=4}
+%}}}
+
+
+%}}}
+
+
+\begin{document}
+	\setcounter{section}{\blattnummer}
+	\subsection{Klassendiagramm}
+	\setcounter{subsubsection}{2}
+	\subsubsection{}
+
+	\begin{description}
+		\item [called\_by\_to\_show\_ui:] Die Klasse Main instanziiert ein MovieUI-Objekt, um die GUI anzuzeigen
+		\item [painted\_on\_by:] MovieUI zeichnet sich auf einen JFrame
+		\item [used\_by:] JButton und JTextField werden von MovieUI angezeigt um die Möglichkeit, einen Film zuzufügen, und die Möglichkeit, die Anzeige zu filtern, zugänglich zu machen.
+		\item [sorts:] TableRowSorter wird verwendet, um die Tabelle zu ordnen.
+		\item [operates:] Die Interna der JTable werden durch MovieTableModel verwaltet, dafür speichert die JTable ihr MovieTableModel ab.
+		\item [realises:] MovieTableModel erbt von AbstractTableModel, und erzeugt ein nicht abstraktes, auf MovieManager zugeschneidertes TableModel.
+		\item [provides\_data:] Das MovieTableModel bekommt seine Daten vom MovieManager. Es speichert dazu eine Instanz des MovieManagers ab.
+		\item [managed\_by:] Die Movies werden im MovieManager gespeichert und verwaltet.
+		\item [owned\_by:] MovieUI speichert auch das MovieTableModel. Der Zweck ist nicht bekannt, denn eigentlich bietet JTable auch die Funktion "`getTableModel()"' an, mit der sich auch auf MovieTableModel zugreifen ließe.
+	\end{description}
+
+
+
+\end{document}

@@ -16,4 +16,5 @@
 <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 <fullyQualifiedTypeName name="java.awt.event.ActionEvent"/>
 <fullyQualifiedTypeName name="java.awt.Component"/>
+<fullyQualifiedTypeName name="junit.framework.TestCase"/>
 </qualifiedTypeNameHistroy>
