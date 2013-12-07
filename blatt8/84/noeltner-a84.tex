@@ -1,0 +1,85 @@
+%{{{ Heading Stuff
+
+%{{{ Documentclass, usepackages
+%\documentclass[ngerman, landscape]{scrartcl}
+\documentclass[ngerman]{scrartcl}
+\usepackage[ngerman]{babel}
+%}}}
+
+%{{{ Titel, Author, etc...
+
+\newcommand{\blattnummer}{8}												%% Nummer des Übungsblattes angeben
+\newcommand{\aufgabe}{4}
+\newcommand{\myauthor}{Moritz Nöltner, Johannes Visintini, Philip Bell}
+\newcommand{\mytutor}{Amin Kiem}
+\newcommand{\mytitle}{Abgabe für ISW Blatt \blattnummer}
+\title{\mytitle}
+\author{\myauthor}
+%}}}
+
+%{{{ Kopf und Fußzeilen einrichten
+\usepackage{fontspec, fancyhdr}
+\pagestyle{fancy}
+
+\lhead{\bfseries \mytitle}
+%%\chead{\mytitle}
+\rhead{\bfseries \myauthor}
+
+\lfoot{\bfseries \today}
+\cfoot{Tutor: \mytutor}
+\rfoot{\bfseries \thepage}
+
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+%\textheight = 592pt	%% Standardwert
+\textheight = 650pt 	%% Für Hochformat
+%%\textheight = 450pt 	%% Für Querformat
+%}}}
+
+%{{{ Longtable
+
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{pdfpages}
+%}}}
+
+%{{{ Minted (Highlighter für Code)
+
+%% \usepackage{minted}
+%% \definecolor{bg}{rgb}{0.95,0.95,0.95}
+%% \newminted[Java]{java}{numbersep=5pt, bgcolor=bg, gobble=0, linenos, tabsize=4}
+%}}}
+
+
+%}}}
+
+
+\begin{document}
+	\setcounter{section}{\blattnummer}
+	\setcounter{subsection}{\aufgabe-1}
+	\subsection{Klassendiagramm}
+	\setcounter{subsubsection}{0}
+	%\subsubsection{}
+
+	\begin{enumerate}
+		\item konkrete Anforderungen an die Effizienz des Movie Managers:
+			\begin{itemize}
+				\item Das overall rating sollte nicht bei jedem Aufruf neu berechnet werden, sondern als Attribut gespeichert sein.
+				\item Jedes Movie sollte eine Liste der mitspielenden Performer besitzen, jeder Performer sollte eine Liste der Movies besitzen, in denen er mitspielt. (damit man nicht invers suchen muss, wenn man die Filme eines Performers anzeigen will, oder wenn man alle Performer eines Movies anzeigen will)
+			\end{itemize}
+		\item konkrete Anforderungen an die Benutzbarketi(Usability) des MovieManagers:
+			\begin{itemize}
+				\item Für das Erstellen jeder Art von Objekten sollte ein eigener Knopf in der Benutzeroberfläche exisitieren (so dass man sich nicht durch die Menues durchklicken muss)
+				\item Es sollte die Möglichkeit geben, alle Objekte einer Art (beispielsweise Movies) in einer Liste anzuzeigen.
+			\end{itemize}
+		\item konkrete Anforderungen an die Zuverlässigkeit des MovieManagers:
+			\begin{itemize}
+				\item Bei einem Programmabsturz sollten keine schon gepspeicherten Daten verloren gehen. \textrightarrow ~Es sollte mit doppelt gepufferten Sicherungsdateien gespeichert werden.
+				\item Der Code des Programms sollte exception-save sein. Das heißt, alle Exceptions, die auftreten können, müssen abgefangen werden.
+			\end{itemize}
+	\end{enumerate}
+
+
+
+\end{document}
