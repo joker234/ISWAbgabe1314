@@ -1,0 +1,79 @@
+%{{{ Heading Stuff
+
+%{{{ Documentclass, usepackages
+%\documentclass[ngerman, landscape]{scrartcl}
+\documentclass[ngerman]{scrartcl}
+\usepackage[ngerman]{babel}
+%}}}
+
+%{{{ Titel, Author, etc...
+
+\newcommand{\blattnummer}{9}												%% Nummer des Übungsblattes angeben
+\newcommand{\aufgabe}{1}
+\newcommand{\myauthor}{Moritz Nöltner, Johannes Visintini, Philip Bell}
+\newcommand{\mytutor}{Amin Kiem}
+\newcommand{\mytitle}{Abgabe für ISW Blatt \blattnummer}
+\title{\mytitle}
+\author{\myauthor}
+%}}}
+
+%{{{ Kopf und Fußzeilen einrichten
+\usepackage{fontspec, fancyhdr}
+\pagestyle{fancy}
+
+\lhead{\bfseries \mytitle}
+%%\chead{\mytitle}
+\rhead{\bfseries \myauthor}
+
+\lfoot{\bfseries \today}
+\cfoot{Tutor: \mytutor}
+\rfoot{\bfseries \thepage}
+
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+%\textheight = 592pt	%% Standardwert
+\textheight = 650pt 	%% Für Hochformat
+%%\textheight = 450pt 	%% Für Querformat
+%}}}
+
+%{{{ Longtable
+
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{pdfpages}
+%}}}
+
+%{{{ Minted (Highlighter für Code)
+
+%% \usepackage{minted}
+%% \definecolor{bg}{rgb}{0.95,0.95,0.95}
+%% \newminted[Java]{java}{numbersep=5pt, bgcolor=bg, gobble=0, linenos, tabsize=4}
+%}}}
+
+
+%}}}
+
+
+\begin{document}
+	\setcounter{section}{\blattnummer}
+	\setcounter{subsection}{\aufgabe-1}
+	\subsection{Klassendiagramm EMF Movie Manager}
+	\setcounter{subsubsection}{3}
+	\subsubsection{Erklärung}
+
+	\begin{description}
+	\item [sortiert] TreeViewerColumnSorter sortiert die Anzeige im Haupfenster. Dafür wird für jedes Anzeigeelement ein TreeViewerColumnSorter in MoviesView gespeichert.
+	\item [liefert Label] Der CustomColumnLabelProvider liefert die Label für die Filme. Dafür wird ein CustomColumnLabelProvider in MoviesView gespeichert.
+	\item [liefert Inhalt] MoviesView erstellt einen Tree, der MoviesContentProvider wird dem Tree als ContentProvider zugewiesen.
+	\item [wird verwaltet von] MovieViewHandler erzeugt die Umgebung und öffnet dann ein MoviesView.
+	\end{description}
+
+	\setcounter{subsubsection}{5}
+	\subsubsection{Gegenüberstellung}
+	Der EMF-MovieManager verwendet zur Anzeige Graphische Elemente, während der Swing-MovieManager nur eine Tabelle (JTable benutzt).\\
+	Analog zum TreeViewerColumnSorter der EMF-Version benötig die Jtable den TableRowSorter, die Entsprechung des MoviesContentProviders ist das MovieTableModel, dass die Anzeige mit Daten versorgt.\\
+	Während beim EMF-Modell die Anzeigeelemente in einem Tree verwaltet werden und graphischer Natur sind, nutzt die Swing-Variante nur die Textfelder der Tabelle und sonst Standardelemente wie JButton und JTextfield.
+
+
+\end{document}
