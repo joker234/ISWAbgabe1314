@@ -1,0 +1,74 @@
+%{{{ Heading Stuff
+
+%{{{ Documentclass, usepackages
+%\documentclass[ngerman, landscape]{scrartcl}
+\documentclass[ngerman]{scrartcl}
+\usepackage[ngerman]{babel}
+%}}}
+
+%{{{ Titel, Author, etc...
+
+\newcommand{\blattnummer}{9}												%% Nummer des Übungsblattes angeben
+\newcommand{\aufgabe}{2}
+\newcommand{\myauthor}{Moritz Nöltner, Johannes Visintini, Philip Bell}
+\newcommand{\mytutor}{Amin Kiem}
+\newcommand{\mytitle}{Abgabe für ISW Blatt \blattnummer}
+\title{\mytitle}
+\author{\myauthor}
+%}}}
+
+%{{{ Kopf und Fußzeilen einrichten
+\usepackage{fontspec, fancyhdr}
+\pagestyle{fancy}
+
+\lhead{\bfseries \mytitle}
+%%\chead{\mytitle}
+\rhead{\bfseries \myauthor}
+
+\lfoot{\bfseries \today}
+\cfoot{Tutor: \mytutor}
+\rfoot{\bfseries \thepage}
+
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+%\textheight = 592pt	%% Standardwert
+\textheight = 650pt 	%% Für Hochformat
+%%\textheight = 450pt 	%% Für Querformat
+%}}}
+
+%{{{ Longtable
+
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{pdfpages}
+%}}}
+
+%{{{ Minted (Highlighter für Code)
+
+%% \usepackage{minted}
+%% \definecolor{bg}{rgb}{0.95,0.95,0.95}
+%% \newminted[Java]{java}{numbersep=5pt, bgcolor=bg, gobble=0, linenos, tabsize=4}
+%}}}
+
+
+%}}}
+
+
+\begin{document}
+	\setcounter{section}{\blattnummer}
+	\setcounter{subsection}{\aufgabe-1}
+	\subsection{Programmierung \#1: Context-Menu + Dialog}
+	\setcounter{subsubsection}{4}
+	\subsubsection{Textuelle Systemtestfälle}
+
+	\begin{description}
+	\item [Keine Movies angelegt] Wenn noch keine Movies angelegt sind, sollte der Dialog keine Movies zeigen und sich sonst normal verhalten
+	\item [Movies angelegt, aber keine verliehen] In diesem Fall sollte der Dialog einfach keine Filme anzeigen.
+	\item [Movies angelegt, alle ausgeliehen] In diesem Fall sollte der Dialog alle angelegten Movies auch anzeigen.
+	\item [Movies angelegt, manche ausgeliehen] In diesem Fall sollter der Dialog nur die verliehenen Movies anzeigen.
+	\end{description}
+
+
+
+\end{document}
