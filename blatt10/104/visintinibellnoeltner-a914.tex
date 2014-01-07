@@ -1,0 +1,176 @@
+%{{{ Heading Stuff
+
+%{{{ Documentclass, usepackages
+%\documentclass[ngerman, landscape]{scrartcl}
+\documentclass[ngerman]{scrartcl}
+\usepackage[ngerman]{babel}
+%}}}
+
+%{{{ Titel, Author, etc...
+
+\newcommand{\blattnummer}{10}												%% Nummer des Übungsblattes angeben
+\newcommand{\aufgabe}{1}
+\newcommand{\myauthor}{Moritz Nöltner, Johannes Visintini, Philip Bell}
+\newcommand{\mytutor}{Amin Kiem}
+\newcommand{\mytitle}{Abgabe für ISW Blatt \blattnummer}
+\title{\mytitle}
+\author{\myauthor}
+%}}}
+
+%{{{ Kopf und Fußzeilen einrichten
+\usepackage{fontspec, fancyhdr}
+\pagestyle{fancy}
+
+\lhead{\bfseries \mytitle}
+%%\chead{\mytitle}
+\rhead{\bfseries \myauthor}
+
+\lfoot{\bfseries \today}
+\cfoot{Tutor: \mytutor}
+\rfoot{\bfseries \thepage}
+
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+%\textheight = 592pt	%% Standardwert
+\textheight = 650pt 	%% Für Hochformat
+%%\textheight = 450pt 	%% Für Querformat
+%}}}
+
+%{{{ Longtable
+
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{pdfpages}
+%}}}
+
+%{{{ Minted (Highlighter für Code)
+
+%% \usepackage{minted}
+%% \definecolor{bg}{rgb}{0.95,0.95,0.95}
+%% \newminted[Java]{java}{numbersep=5pt, bgcolor=bg, gobble=0, linenos, tabsize=4}
+%}}}
+
+
+%}}}
+
+\newcommand{\f}{Functional Requirements}
+\newcommand{\n}{Nonfunctional Requirements}
+\newcommand{\g}{Glossary}
+
+\begin{document}
+	\setcounter{section}{\blattnummer}
+	\setcounter{subsection}{\aufgabe-1}
+	\subsection{Klassendiagramm EMF Movie Manager}
+	\setcounter{subsubsection}{4}
+	\subsubsection{Einführung Sprint}
+
+	%{{{ Testfalltabelle
+
+	\begin{tiny}
+
+	\begin{longtable}{|l|l|}
+		\hline
+		Artefakt & Zuordnung im ReqSpecDocument\\
+		\hline
+		\hline
+		Erhobene Defizite & \f\\
+		\hline
+		Geschäftsprozessmodelle & \f\\
+		\hline
+		Protokolle & \f\\
+		\hline
+		Rollenbeschreibungen & \f\\
+		\hline
+		Aufgabenbeschreibungen & \f\\
+		\hline
+		Glossareinträge & \g\\
+		\hline
+		Qualitätskriterien von Aufgaben & \n\\
+		\hline
+		Softwaredokumentation & \n\\
+		\hline
+		Lesetechnik & \n\\
+		\hline
+		Problem/Fehler/Korrekturliste & \n\\
+		\hline
+		Korrigierte SW-Dokumentation & \n\\
+		\hline
+		NFRs & \n\\
+		\hline
+		Domänendatendiagramm & \f\\
+		\hline
+		Datenbeschreibung & \f\\
+		\hline
+		Systemverantwortlichkeitenübersicht & \f\\
+		\hline
+		Aktivitätsdiagramme für IST und SOLL & \f\\
+		\hline
+		Ist- und Soll-Beschreibung & \f\\
+		\hline
+		Qualitätskriterien für die Domäne & \n\\
+		\hline
+		Qualitätskriterien für die Architektur & \n\\
+		\hline
+		Globale Qualitätskriterien für funktionale Anforderungen & \n\\
+		\hline
+		Systemverantwortlichkeiten & \n\\
+		\hline
+		QS-Plan (z.B.: wer, was, wie intensiv, Priorisierung) & \n\\
+		\hline
+		Systemtestplan & \n\\
+		\hline
+		Usecasebeschreibung & \f\\
+		\hline
+		Systemverantwortlichkeitenbeschreibung & \f\\
+		\hline
+		Domänendaten & \f\\
+		\hline
+		Systemfunktionsbeschreibung & \f\\
+		\hline
+		Nutzungsdiagramm & \f\\
+		\hline
+		Szenarien & \f\\
+		\hline
+		Qualitätskriterien für Usecases & \n\\
+		\hline
+		Qualitätskriterien für Systemfunktionen & \n\\
+		\hline
+		UI-Struktur-Diagramm & \f\\
+		\hline
+		Interaktionsdatendiagramm (verfeinertes Datendiagramm)& \f\\
+		\hline
+		Funktionale und nichtfunktionale Anforderungen & \n \& \f\\
+		\hline
+		Systemtestspezifikation & \n\\
+		\hline
+		Erstimplementierung & \f\\
+		\hline
+		Usabilitytestplan & \n\\
+		\hline
+		Usabilitytestspezifikation & \n\\
+		\hline
+		Prototyps & \f\\
+		\hline
+		ERD, UC, Systemfunktionsbeschreibungen & \f\\
+		\hline
+		Analyseklassendiagramm & \f\\
+		\hline
+		Sequenzdiagramme & \f\\
+		\hline
+		Dialog Text [sic.] & \f\\
+		\hline
+		Dialog Zustandsdiagramm [sic.] & \f\\
+		\hline
+		Hilfsfunktionen & \f\\
+		\hline
+		Philip Bell & \g\\
+		\hline
+		Johannes Visintini & \n\\
+		\hline
+	\end{longtable}
+	\end{tiny}
+	%}}}
+
+
+\end{document}
