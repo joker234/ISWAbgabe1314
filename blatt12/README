@@ -1,0 +1,4 @@
+Das Diagramm ist bei uns in 12.1.2 und 12.2.1 das selbe, weil wir vermutlich in
+12.1 bereits alles gemacht haben. Hoffentlich passt dir das auch so.
+Die ecp-Datei gilt für 12.1 bzw. 12.2 und 12.3, da wir 12.3 vor 12.2 gemacht
+haben und somit keine separate ecp-Datei exportieren konnten.
