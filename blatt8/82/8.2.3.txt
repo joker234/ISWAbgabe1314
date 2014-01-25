@@ -1,0 +1,3 @@
+Es fehlen die Nicht-Funktionalen Anforderungen und Erklärungen zu den
+Diagrammen, da sich nicht die komplette Idee des Modellierungsteams (uns)in
+Diagramme fassen lässt.
