@@ -1,0 +1,11 @@
+- Metriken als Tabelle einfügen (Tabelle, früher <> nacher nebeneinander)
+
+Schritte:
+- Quellcode anzeigen
+- simple Dialog
+- Dialog um ausgeliehene Filme anzuzeigen
+- Dialog um Performer hinzuzufügen
+- Dialog um Filme mit der Online-Datenbank abzugleichen
+- Funktionale/Non-Funktionale Requirements
+- Testcases
+- GUI Entwurf
