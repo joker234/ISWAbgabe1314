@@ -53,6 +53,25 @@
 		\note{ }
 	\end{frame}
 
+	\section{Requirements}
+	\subsection{Funktional}
+	\begin{frame}{Requirements}
+		\textbf{UseCase}: SyncDialog\\
+		\textit{Descripition}: öffnet sich wenn ein/e Abgleich/Aktualisierung\\
+		\hspace{1em}oder der Use Case „Stichwortsuche (Filmtitel)“ aufgerufen wird\\
+		\textit{Precondition}: Internetverbindung und MovieManager gestartet\\
+		\textit{Postcondition}: Film wird vervollständigt/aktualisiert\\
+		\textit{Exception}: Film in der Online-Datenbank nicht gefunden\\\vspace{1em}
+
+		\textbf{UseCase}: Stichwortsuche (Filmtitel)\\
+		\textit{Descripition}: Der User übergibt (über das Titel-Feld) ein
+		Stichwort.\\\hspace{1em}Dann sucht das Programm nach diesem (oder
+		ähnlichem) Titel \\\hspace{1em}in der Online-Datenbank.\\
+		\textit{Precondition}: Internetverbindung und MovieManager gestartet\\
+		\textit{Postcondition}: User bekommt Liste von Filmtiteln\\
+		\textit{Exception}: kein Ergebnis gefunden
+	\end{frame}
+
 	\section{GUI}
 	\subsection{Entwurf}
 	\begin{frame}{GUI - Entwurf}
