@@ -7,6 +7,8 @@
 \usepackage[ngerman]{babel}
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage{multicol}
+\usepackage{listings}
 
 %% usefull for handout with blank lines
 %\usepackage{handoutWithNotes}
@@ -44,6 +46,7 @@
 }
  
 \begin{document}
+\lstset{language=Java, showtabs=true, tabsize=2, breaklines=true,  breakatwhitespace=true,}
 
 	\begin{frame}
 		\titlepage
@@ -56,14 +59,6 @@
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=\linewidth]{gui-mockup.png}
-		\end{figure}
-	\end{frame}
-
-	\subsection{Simple Dialog}
-	\begin{frame}{GUI - Simple Dialog}
-		\begin{figure}[H]
-			\centering
-			\includegraphics[width=\linewidth]{simple-dialog.png}
 		\end{figure}
 	\end{frame}
 
@@ -89,6 +84,39 @@
 			\centering
 			\includegraphics[width=\linewidth]{movie-wizard.png}
 		\end{figure}
+	\end{frame}
+
+	\section{Implementation}
+	\subsection{Query-Funktion}
+	\begin{frame}[fragile]{Implementation - Query-Funktion}
+		\tiny\begin{lstlisting}
+suggestionDropDown.removeAll();
+suggestionDropDown.select(0);
+final String nearMovieName = textSearchName.getText(); 
+Thread t = new Thread() {
+    private void searchNearMovies(String title)
+    {
+        MovieQueryService mqs = new MovieQueryService();
+        if (mqs.getListOfNearMovies(title) != null)
+        {
+            nearMovies = mqs.getListOfNearMovies(title);
+        }
+    }
+    
+    public void run()
+    {
+        searchNearMovies(nearMovieName);
+        try {
+            this.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+};
+t.start();
+updateSuggestionDropDown();
+setPageComplete(true);
+		\end{lstlisting}
 	\end{frame}
 
 	\section{}
