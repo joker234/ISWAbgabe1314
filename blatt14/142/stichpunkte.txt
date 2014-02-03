@@ -1,5 +1,3 @@
-- Metriken als Tabelle einfügen (Tabelle, früher <> nacher nebeneinander)
-
 Schritte:
 - Quellcode anzeigen
 - simple Dialog
@@ -8,4 +6,4 @@ Schritte:
 - Dialog um Filme mit der Online-Datenbank abzugleichen
 - Funktionale/Non-Funktionale Requirements
 - Testcases
-- GUI Entwurf
+- GUI Entwurf 
